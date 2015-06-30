@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="aa_shortcut_icon_str_settings">"настройки"</string>
+  <string name="aa_shortcut_icon_str_back">"отступать"</string>
+  <string name="aa_shortcut_icon_str_home">"Главный э.."</string>
+  <string name="aa_shortcut_icon_str_customapps">"пользовательских приложений"</string>
+  <string name="aa_shortcut_icon_str_screenshot">"Скриншот"</string>
+  <string name="aa_shortcut_icon_str_lockscreen">"экран блоки.."</string>
+<string name="lockscreen_carrier_default" msgid="8963839242565653192">"Сеть не найдена"</string>
+    <string name="lockscreen_screen_locked" msgid="7288443074806832904">"Экран заблокирован."</string>
+    <string name="lockscreen_instructions_when_pattern_enabled" msgid="46154051614126049">"Нажмите \"Меню\", чтобы разблокировать экран или вызвать службу экстренной помощи."</string>
+    <string name="lockscreen_instructions_when_pattern_disabled" msgid="686260028797158364">"Для разблокировки нажмите \"Меню\"."</string>
+    <string name="lockscreen_pattern_instructions" msgid="7478703254964810302">"Введите графический ключ"</string>
+    <string name="lockscreen_emergency_call" msgid="5347633784401285225">"Экстренный вызов"</string>
+    <string name="lockscreen_return_to_call" msgid="5244259785500040021">"Вернуться к вызову"</string>
+    <string name="lockscreen_pattern_correct" msgid="9039008650362261237">"Правильно!"</string>
+    <string name="lockscreen_pattern_wrong" msgid="4317955014948108794">"Повторите попытку"</string>
+    <string name="lockscreen_password_wrong" msgid="5737815393253165301">"Повторите попытку"</string>
+    <string name="faceunlock_multiple_failures" msgid="754137583022792429">"Все попытки войти с помощью Фейсконтроля использованы"</string>
+    <string name="lockscreen_plugged_in" msgid="8057762828355572315">"Идет зарядка (<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>)"</string>
+    <string name="lockscreen_charged" msgid="321635745684060624">"Заряжено"</string>
+    <string name="lockscreen_battery_short" msgid="4477264849386850266">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_low_battery" msgid="1482873981919249740">"Подключите зарядное устройство"</string>
+    <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"Нет SIM-карты"</string>
+    <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"SIM-карта не установлена."</string>
+    <string name="lockscreen_missing_sim_message" product="default" msgid="2186920585695169078">"SIM-карта не установлена."</string>
+    <string name="lockscreen_missing_sim_instructions" msgid="5372787138023272615">"Вставьте SIM-карту."</string>
+    <string name="lockscreen_missing_sim_instructions_long" msgid="3526573099019319472">"SIM-карта отсутствует или недоступна. Вставьте SIM-карту."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short" msgid="5096149665138916184">"SIM-карта непригодна к использованию"</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions" msgid="910904643433151371">"SIM-карта окончательно заблокирована."\n"Чтобы получить новую, обратитесь к своему оператору."</string>
+    <string name="lockscreen_transport_prev_description" msgid="201594905152746886">"Кнопка перехода к предыдущему треку"</string>
+    <string name="lockscreen_transport_next_description" msgid="6089297650481292363">"Кнопка перехода к следующему треку"</string>
+    <string name="lockscreen_transport_pause_description" msgid="7659088786780128001">"Кнопка паузы"</string>
+    <string name="lockscreen_transport_play_description" msgid="5888422938351019426">"Кнопка воспроизведения"</string>
+    <string name="lockscreen_transport_stop_description" msgid="4562318378766987601">"Кнопка выключения"</string>
+    <string name="emergency_calls_only" msgid="6733978304386365407">"Только экстренные вызовы"</string>
+    <string name="lockscreen_network_locked_message" msgid="143389224986028501">"Сеть заблокирована"</string>
+    <string name="lockscreen_sim_puk_locked_message" msgid="7441797339976230">"SIM-карта заблокирована с помощью кода PUK"</string>
+    <string name="lockscreen_sim_puk_locked_instructions" msgid="8127916255245181063">"Ознакомьтесь с руководством пользователя или свяжитесь со службой поддержки."</string>
+    <string name="lockscreen_sim_locked_message" msgid="8066660129206001039">"SIM-карта заблокирована"</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message" msgid="595323214052881264">"Разблокировка SIM-карты…"</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" msgid="6481623830344107222">"Вы <xliff:g id="NUMBER_0">%d</xliff:g> раз неверно указали графический ключ. "\n\n"Повтор через <xliff:g id="NUMBER_1">%d</xliff:g> сек."</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" msgid="2725973286239344555">"Вы <xliff:g id="NUMBER_0">%d</xliff:g> раз неверно указали пароль. "\n\n"Повтор через <xliff:g id="NUMBER_1">%d</xliff:g> сек."</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" msgid="6216672706545696955">"Вы <xliff:g id="NUMBER_0">%d</xliff:g> раз неверно указали PIN-код. "\n\n"Повтор через <xliff:g id="NUMBER_1">%d</xliff:g> сек."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet" msgid="9191611984625460820">"Вы <xliff:g id="NUMBER_0">%d</xliff:g> раз неверно указали графический ключ. После <xliff:g id="NUMBER_1">%d</xliff:g> неверных попыток для разблокировки планшетного ПК потребуется войти в аккаунт Google. "\n\n" Повтор через <xliff:g id="NUMBER_2">%d</xliff:g> сек."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default" msgid="2590227559763762751">"Вы <xliff:g id="NUMBER_0">%d</xliff:g> раз неверно указали графический ключ. После <xliff:g id="NUMBER_1">%d</xliff:g> неверных попыток для разблокировки телефона потребуется войти в аккаунт Google. "\n\n" Повтор через <xliff:g id="NUMBER_2">%d</xliff:g> сек."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet" msgid="6128106399745755604">"Вы <xliff:g id="NUMBER_0">%d</xliff:g> раз не смогли разблокировать планшетный ПК. После <xliff:g id="NUMBER_1">%d</xliff:g> неверных попыток будут восстановлены заводские настройки, что приведет к удалению всех пользовательских данных."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default" msgid="8603565142156826565">"Вы <xliff:g id="NUMBER_0">%d</xliff:g> раз не смогли разблокировать телефон. После <xliff:g id="NUMBER_1">%d</xliff:g> неверных попыток будут восстановлены заводские настройки, что приведет к удалению всех пользовательских данных."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet" msgid="280873516493934365">"Вы <xliff:g id="NUMBER">%d</xliff:g> раз не смогли разблокировать планшетный ПК. Будут восстановлены заводские настройки."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="default" msgid="3025504721764922246">"Вы <xliff:g id="NUMBER">%d</xliff:g> раз не смогли разблокировать телефон. Будут восстановлены заводские настройки."</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown" msgid="6251480343394389665">"Повторите попытку через <xliff:g id="NUMBER">%d</xliff:g> с."</string>
+    <string name="lockscreen_forgot_pattern_button_text" msgid="2626999449610695930">"Забыли графический ключ?"</string>
+    <string name="lockscreen_glogin_forgot_pattern" msgid="2588521501166032747">"Снятие блокировки аккаунта"</string>
+    <string name="lockscreen_glogin_too_many_attempts" msgid="2751368605287288808">"Неверный графический ключ"</string>
+    <string name="lockscreen_glogin_instructions" msgid="3931816256100707784">"Чтобы разблокировать устройство, войдите в свой аккаунт Google."</string>
+    <string name="lockscreen_glogin_username_hint" msgid="8846881424106484447">"Имя пользователя (эл. почта)"</string>
+    <string name="lockscreen_glogin_password_hint" msgid="5958028383954738528">"Пароль"</string>
+    <string name="lockscreen_glogin_submit_button" msgid="7130893694795786300">"Вход"</string>
+    <string name="lockscreen_glogin_invalid_input" msgid="1364051473347485908">"Неверное имя пользователя или пароль."</string>
+    <string name="lockscreen_glogin_account_recovery_hint" msgid="1696924763690379073">"Забыли имя пользователя или пароль?"\n"Перейдите на страницу "<b>"google.com/accounts/recovery"</b>"."</string>
+    <string name="lockscreen_glogin_checking_password" msgid="7114627351286933867">"Проверка…"</string>
+    <string name="lockscreen_unlock_label" msgid="737440483220667054">"Разблокировать"</string>
+    <string name="lockscreen_sound_on_label" msgid="9068877576513425970">"Вкл. звук"</string>
+    <string name="lockscreen_sound_off_label" msgid="996822825154319026">"Откл. звук"</string>
+    <string name="lockscreen_access_pattern_start" msgid="3941045502933142847">"Ввод графического ключа"</string>
+    <string name="lockscreen_access_pattern_cleared" msgid="5583479721001639579">"Графический ключ сброшен"</string>
+    <string name="lockscreen_access_pattern_cell_added" msgid="6756031208359292487">"Ячейка добавлена"</string>
+    <string name="lockscreen_access_pattern_detected" msgid="4988730895554057058">"Графический ключ введен"</string>
+    
+</resources>

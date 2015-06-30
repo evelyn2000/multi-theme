@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="isPluginPackage" format="integer" />
+    <attr name="isThemePackage" format="integer" />
+    <attr name="themeNameId" format="reference" />
+    <declare-styleable name="LyManifest">
+        <attr name="isPluginPackage" />
+        <attr name="isThemePackage" />
+        <attr name="themeNameId" />
+    </declare-styleable>
+</resources>

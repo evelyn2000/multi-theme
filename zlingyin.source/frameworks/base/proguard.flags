@@ -1,0 +1,26 @@
+# Don't obfuscate. We only need dead code striping.
+#-dontobfuscate
+-dontpreverify
+-dontoptimize
+-keepattributes *Annotation*
+
+-keepclassmembers class * extends android.content.Context {
+   public void *(android.view.View);
+   public void *(android.view.MenuItem);
+}
+
+-keep public class com.jzs.internal.server.PackageManagerService {
+    public *;
+}
+
+-keep public class com.jzs.internal.server.JzsServerManagerService {
+    public *;
+}
+
+-keep public class com.jzs.internal.manager.* {
+    public *;
+}
+
+-keep public class com.jzs.internal.widget.* {
+    public protected *;
+}

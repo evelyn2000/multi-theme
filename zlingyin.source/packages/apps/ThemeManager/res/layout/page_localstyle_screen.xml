@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customctrl="http://schemas.android.com/apk/res/com.jzs.android.systemstyle"
+	android:layout_gravity="center_horizontal">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		
+	    
+	    <com.jzs.android.systemstyle.controls.PreviewImageView android:id="@+id/stylepreview" 
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			customctrl:checkedicon="@drawable/btn_check_state_icon"
+			android:scaleType="centerInside"
+			/>
+	    
+		<TextView android:id="@+id/styletitle" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20sp"
+			android:gravity="center" 
+			android:ellipsize="marquee" />
+
+	</LinearLayout>
+</merge>

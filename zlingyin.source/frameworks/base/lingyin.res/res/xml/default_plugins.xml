@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugins xmlns:jzsdr="http://schemas.android.com/apk/res/com.jzs">
+<!--	
+    <plugin
+    		jzsdr:packageName="com.android.qishang.qsslidelockscreen"
+        jzsdr:className="com.android.qishang.qsslidelockscreen.QiShangSlideLockScreen"
+        jzsdr:pluginFor="@string/PluginFor_Lockscreen"
+        jzsdr:pluginType="@integer/PluginType_Style"
+        />
+-->    
+</plugins>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="address_login_jzslib" translatable="false">http://mota.mediatek.com/fota/download/login.php</string>
+    <string name="address_check_version_jzslib" translatable="false">http://mota.mediatek.com/fota/download/checkversion.php</string>
+    <string name="address_download_full_jzslib" translatable="false">http://mota.mediatek.com/fota/download/downloadfullota.php</string>
+    <string name="address_download_delta_jzslib" translatable="false">http://mota.mediatek.com/fota/download/download.php</string>
+    <string name="address_update_result_jzslib" translatable="false">updateResult</string>
+    <string name="gms_load_flag_jzslib" translatable="false">/system/etc/permissions/com.google.android.gms.releasenote.xml</string>    
+    
+    
+    <string name="qs_address_login">http://ota.qishangtel.com/fota/login.php</string>
+    <string name="qs_address_check_version">http://ota.qishangtel.com/fota/checkversion.php</string>
+    <string name="qs_address_download">http://ota.qishangtel.com/fota/download/download.php</string>
+</resources>

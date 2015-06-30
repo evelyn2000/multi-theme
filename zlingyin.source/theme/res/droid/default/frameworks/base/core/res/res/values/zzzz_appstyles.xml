@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ZzzzAppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+        
+    <style name="ZzzzAppTheme.NoActionBar.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.WallpaperPicker" parent="ZzzzAppTheme.NoActionBar">
+    </style>
+
+    <style name="ZzzzAppTheme.Dialog.NoActionBar">
+    	  <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ZzzzAppTheme.DialogWhenLarge">        
+    </style>
+    
+    <style name="ZzzzAppTheme.DialogWhenLarge.NoActionBar">        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ZzzzAppTheme.Wallpaper">
+    		<item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Wallpaper.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Wallpaper.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="ZzzzAppTheme.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Light.DarkActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+<!--    	<item name="android:windowContentOverlay">@android:drawable/ab_solid_shadow_holo</item> -->
+      <item name="android:actionBarStyle">@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse</item>
+      <item name="android:actionBarWidgetTheme">@android:style/Theme.DeviceDefault</item>
+      
+      <item name="android:actionDropDownStyle">@android:style/Widget.DeviceDefault.Spinner.DropDown.ActionBar</item>
+      <item name="android:actionButtonStyle">@android:style/Widget.DeviceDefault.ActionButton</item>
+      <item name="android:actionOverflowButtonStyle">@android:style/Widget.DeviceDefault.ActionButton.Overflow</item>
+ <!--     <item name="android:actionModeBackground">@android:drawable/cab_background_top_holo_dark</item>
+      <item name="android:actionModeSplitBackground">@android:drawable/cab_background_bottom_holo_dark</item>
+      <item name="android:actionModeCloseDrawable">@android:drawable/ic_cab_done_holo_dark</item>
+      <item name="android:homeAsUpIndicator">@android:drawable/ic_ab_back_holo_dark</item> -->
+      <item name="android:actionBarTabStyle">@android:style/Widget.DeviceDefault.Light.ActionBar.TabView.Inverse</item>
+      <item name="android:actionBarTabBarStyle">@android:style/Widget.DeviceDefault.Light.ActionBar.TabBar.Inverse</item>
+      <item name="android:actionBarTabTextStyle">@android:style/Widget.DeviceDefault.Light.ActionBar.TabText.Inverse</item>
+<!--      <item name="android:actionBarDivider">@android:drawable/list_divider_holo_dark</item>
+      <item name="android:actionBarItemBackground">@android:drawable/item_background_holo_dark</item>
+      <item name="android:actionMenuTextColor">?android:attr/textColorPrimaryInverse</item> -->
+      <item name="android:actionModeStyle">@android:style/Widget.DeviceDefault.Light.ActionMode.Inverse</item>
+      <item name="android:actionModeCloseButtonStyle">@android:style/Widget.DeviceDefault.ActionButton.CloseMode</item>
+      <item name="android:actionModePopupWindowStyle">@android:style/Widget.DeviceDefault.PopupWindow.ActionMode</item>
+<!--      
+      <item name="android:actionModeCutDrawable">@android:drawable/ic_menu_cut_holo_dark</item>
+      <item name="android:actionModeCopyDrawable">@android:drawable/ic_menu_copy_holo_dark</item>
+      <item name="android:actionModePasteDrawable">@android:drawable/ic_menu_paste_holo_dark</item>
+      <item name="android:actionModeSelectAllDrawable">@android:drawable/ic_menu_selectall_holo_dark</item>
+      <item name="android:actionModeShareDrawable">@android:drawable/ic_menu_share_holo_dark</item>
+      <item name="android:actionModeFindDrawable">@android:drawable/ic_menu_find_holo_dark</item>
+      <item name="android:actionModeWebSearchDrawable">@android:drawable/ic_menu_search_holo_dark</item>
+        -->
+  </style>
+</resources>

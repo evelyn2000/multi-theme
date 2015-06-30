@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/dimens.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+  
+
+    <dimen name="preference_fragment_padding_side">0dp</dimen>
+    <dimen name="zzzz_searchview_text_size">18.0dip</dimen>
+
+    <dimen name="zzzz_alert_dialog_title_height">48.0dip</dimen>
+    <dimen name="zzzz_alert_dialog_button_bar_height">45.0dip</dimen>
+    <dimen name="zzzz_action_bar_title_text_size">26sp</dimen>
+    <dimen name="zzzz_action_bar_subtitle_text_size">16sp</dimen>
+    <dimen name="zzzz_action_bar_subtitle_bottom_margin">4.0dip</dimen>
+    <dimen name="zzzz_action_bar_menu_text_size">22sp</dimen>
+    <dimen name="zzzz_action_bar_up_margin">7.0dip</dimen>
+    <dimen name="zzzz_compactmenu_width">315.0dip</dimen>
+    <dimen name="zzzz_option_menu_maxheight">391.0dip</dimen>
+
+    <dimen name="action_bar_stacked_tab_max_width">320dp</dimen>
+    
+    <dimen name="status_bar_height">36dip</dimen>
+    
+    <dimen name="status_bar_icon_size">32dip</dimen>
+    
+    <!-- Size of notification text (see TextAppearance.StatusBar.EventContent) -->
+    <dimen name="notification_text_size">22dp</dimen>
+    <!-- Size of notification text titles (see TextAppearance.StatusBar.EventContent.Title) -->
+    <dimen name="notification_title_text_size">30dp</dimen>
+    <!-- Size of smaller notification text (see TextAppearance.StatusBar.EventContent.Line2, Info, Time) -->
+    <dimen name="notification_subtext_size">20dp</dimen>
+    
+    <dimen name="zzzz_large_text_size">24sp</dimen>
+    <dimen name="zzzz_medium_text_size">22sp</dimen>
+    <dimen name="zzzz_normal_text_size">20sp</dimen>
+    <dimen name="zzzz_small_text_size">14sp</dimen>
+
+</resources>

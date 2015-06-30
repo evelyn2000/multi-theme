@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+<bookmark
+    package=""
+    class=""
+    keycode="KEYCODE_F1" />
+-->
+<bookmarks>
+		<bookmark
+        action="com.jzs.android.action.ACTION_WAKEUP"
+        gesturetype="4"
+        userright="1" />
+        
+		<bookmark
+        action="com.jzs.android.action.ACTION_DISMISS_KEYGUARD"
+        gesturetype="2"
+        userright="1" />
+
+    <bookmark
+        package="com.android.gallery3d"
+        class="com.android.camera.Camera"
+        gesturetype="11" />
+        
+    <bookmark
+        package="com.android.settings"
+        class="com.android.settings.Settings"
+        gesturetype="6" />
+<!--    <bookmark
+        category="android.intent.category.APP_BROWSER"
+        shortcut="KEYCODE_F8" />
+        -->
+    <bookmark
+        package="com.android.browser"
+        class="com.android.browser.BrowserActivity"
+        gesturetype="7" />
+       
+    <bookmark
+        package="com.android.dialer"
+        class="com.android.dialer.DialtactsActivity"
+        gesturetype="5" />
+        
+    <bookmark
+        category="android.intent.category.APP_MUSIC"
+        gesturetype="9" />
+        
+</bookmarks>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="ZzzzAppBaseTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+    <style name="ZzzzAppTheme.Inverse" parent="@android:style/Theme.DeviceDefault" />
+    
+    <!-- Application theme. -->
+    <style name="ZzzzAppTheme" parent="ZzzzAppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="ZzzzAppTheme.Dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog" />
+    
+    <style name="ZzzzAppTheme.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+    
+    <style name="ZzzzAppTheme.Panel" parent="@android:style/Theme.DeviceDefault.Light.Panel" />
+		
+		<style name="ZzzzAppTheme.InputMethod" parent="@android:style/Theme.DeviceDefault.InputMethod" />
+		
+</resources>

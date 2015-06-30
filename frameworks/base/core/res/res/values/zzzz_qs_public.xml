@@ -1,0 +1,63 @@
+<!-- This file defines the base public resources exported by the
+     platform, which must always exist. -->
+
+<!-- ***************************************************************
+     ***************************************************************
+     IMPORTANT NOTE FOR ANYONE MODIFYING THIS FILE
+     READ THIS BEFORE YOU MAKE ANY CHANGES
+
+     This file defines the binary compatibility for resources.  As such,
+     you must be very careful when making changes here, or you will
+     completely break backwards compatibility with old applications.
+
+     To avoid breaking compatibility, all new resources must be placed
+     at the end of the list of resources of the same type.  Placing a resource
+     in the middle of type will cause all following resources to be
+     assigned new resource numbers, breaking compatibility.
+
+     ***************************************************************
+     *************************************************************** -->
+<resources>
+
+		
+
+	<java-symbol type="string" name="qs_shutdown_reboot_confirm" />
+	<java-symbol type="string" name="zzzz_qs_htc_unlock_string" />
+	<java-symbol type="string" name="zzzz_qs_iphone_unlock_string" />
+	<java-symbol type="string" name="zzzz_qs_sdcard_music" />
+	<java-symbol type="string" name="zzzz_qs_system_music" />
+	
+	<java-symbol type="string" name="zzzz_qs_wday_date" />
+	<java-symbol type="string" name="zzzz_qs_day_month" />
+	<java-symbol type="string" name="zzzz_qs_month_day" />
+	<java-symbol type="string" name="zzzz_ss_lockscreen_short_cut_guide_text" />
+	<java-symbol type="string" name="zzzz_ss_lockscreen_unlock_guide_text" />
+<!--	<java-symbol type="string" name="abbrev_wday_month_day_year" />	-->
+	<java-symbol type="string" name="permlab_deletePackages" />
+	<java-symbol type="string" name="zzzz_htc_lockscreen_missing_sim_short" />
+	<java-symbol type="string" name="zzzz_ss_power_dialog" />
+
+
+	
+	<java-symbol type="layout" name="zzzz_preference_holo" />
+	<java-symbol type="layout" name="zzzz_action_menu_layout" />
+	<java-symbol type="layout" name="zzzz_app_permission_item" />
+  <java-symbol type="layout" name="zzzz_app_permission_item_money" />
+  <java-symbol type="layout" name="zzzz_list_content" />
+  <java-symbol type="layout" name="zzzz_list_content_simple" />
+
+	<java-symbol type="dimen" name="status_bar_height" />
+	
+
+	<java-symbol type="string" name="name_running_memory" />
+	<java-symbol type="string" name="colon" />
+	<java-symbol type="string" name="cpu_core_highest" />
+	<java-symbol type="string" name="cpu_core_lowest" />
+	<java-symbol type="string" name="total_storage_size" />
+	<java-symbol type="string" name="inner_storage_size" />	
+	<java-symbol type="string" name="zzzz_qs_ss_s4_default_title" />
+
+
+
+
+</resources>

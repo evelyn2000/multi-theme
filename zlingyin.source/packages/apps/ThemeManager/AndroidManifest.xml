@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jzs.android.systemstyle"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+    
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="com.jzs.systemstyle.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.jzs.systemstyle.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    
+    
+<!--     <uses-permission android:name="com.jzs.permission.SUPPORT_THEME_PLUGIN_PERMISSION" /> -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+
+    <application android:name=".ThemeStyleApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+<!--                 <category android:name="android.intent.category.LAUNCHER"/> -->
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".activities.ListSupportAppsActivity"
+            android:label="@string/str_support_apps_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+<!--                 <category android:name="android.intent.category.LAUNCHER"/> -->
+            </intent-filter>
+        </activity>
+        
+      <activity android:name=".activities.ListStyleActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+           <!--     <category android:name="android.intent.category.LAUNCHER"/> -->
+            </intent-filter>
+        </activity>
+        
+      <activity android:name=".activities.TestActivity"
+            android:label="TestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+           <!--     <category android:name="android.intent.category.LAUNCHER"/>  -->
+            </intent-filter>
+        </activity>
+        
+      <activity android:name=".activities.ListPluginActivity"
+          	android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true" >
+          <intent-filter android:priority="1">
+              <action android:name="android.intent.jzs.action.ACTION_JZS_LIST_PLUGINS"/>
+              <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+      </activity>
+      
+      <activity android:name=".activities.ListThemeActivity"
+          	android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"/>
+        
+        <receiver
+            android:name=".ThemeLauncherReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+                <data
+                    android:host="35947537"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name=".services.EnablePluginService" >
+            <intent-filter>
+                <action android:name="android.intent.jzs.action.ACTION_DUI_ENABLE_PLUGIN"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".services.InitStyleInfoService" >
+            <intent-filter android:priority="-1">
+                <action android:name="com.jzs.android.intent.action.InitStyleInfoService"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".plugin.SaveStyleServices" >
+            <intent-filter android:priority="-1">
+                <action android:name="com.jzs.android.intent.action.SaveStyleServices" />
+                <category android:name="com.jzs.android.category.JzsPlugin" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".plugin.SystemUpdateService" >
+            <intent-filter android:priority="-1">
+                <action android:name="com.jzs.android.intent.action.SystemUpdateService" />
+                <category android:name="com.jzs.android.category.JzsPlugin" />
+            </intent-filter>
+        </service>
+        
+         <receiver android:name=".SystemStartupReceiver" android:exported="false">
+            <intent-filter>
+<!--                  <action android:name="android.intent.action.BOOT_COMPLETED"/> -->
+<!--                  <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>  -->
+<!--                  <action android:name="android.intent.action.ACTION_SHUTDOWN" /> -->
+            </intent-filter>
+        </receiver>
+        
+        <provider
+            android:name=".model.ThemeProvider"
+            android:authorities="com.jzs.systemstyle.ThemeProvider"
+            android:multiprocess="true"
+            android:writePermission="com.jzs.systemstyle.permission.WRITE_SETTINGS"
+            android:readPermission="com.jzs.systemstyle.permission.READ_SETTINGS" />
+    </application>
+
+</manifest>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+   
+     <skip/>
+
+    
+    <string name="lockscreen_carrier_default">সার্ভিস নেই</string>
+
+    
+    <string name="lockscreen_screen_locked">স্ক্রিন লক করা</string>
+
+    
+    <string name="lockscreen_instructions_when_pattern_enabled">আনলক করতে মেনু চাপুন বা জরুরি নম্বরে কল করুন</string>
+
+    
+    <string name="lockscreen_instructions_when_pattern_disabled">আনলক করতে মেনু চাপুন </string>
+
+    
+    <string name="lockscreen_pattern_instructions">আনলক করতে প্যাটার্ন ড্র করুন</string>
+    
+    <string name="lockscreen_emergency_call">জরুরি কল</string>
+    
+    <string name="lockscreen_return_to_call">কলে ফেরত যান</string>
+    
+    <string name="lockscreen_pattern_correct">সঠিক!</string>
+    
+    <string name="lockscreen_pattern_wrong">আবার চেষ্টা করুন</string>
+    
+    <string name="lockscreen_password_wrong">আবার চেষ্টা করুন</string>
+    
+    <string name="faceunlock_multiple_failures">সর্বোচ্চ ফেইস আনলক চেষ্টায় পৌছে গেছে</string>
+
+    
+    <string name="lockscreen_plugged_in">চার্জ হচ্ছে (<xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>)</string>
+    
+    <string name="lockscreen_charged">চার্জ দেয়া হয়েছে</string>
+    
+    <string name="lockscreen_battery_short"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    
+    <string name="lockscreen_low_battery">আপনার চার্জার সংযুক্ত করুন</string>
+
+    
+    <string name="lockscreen_missing_sim_message_short">সিম কার্ড নেই</string>
+    
+    <string name="lockscreen_missing_sim_message" product="tablet">ট্যাবলেটে কোনো সিম কার্ড নেই।</string>
+    
+    <string name="lockscreen_missing_sim_message" product="default">ফোনে কোনো সিম কার্ড নেই।</string>
+    
+    <string name="lockscreen_missing_sim_instructions">সিম কার্ড প্রবেশ করান</string>
+    
+    <string name="lockscreen_missing_sim_instructions_long">সিম কার্ড নেই বা পাঠযোগ্য নয়। সিম কার্ড ঢোকান।</string>
+    
+    <string name="lockscreen_permanent_disabled_sim_message_short">ব্যবহারের অযোগ্য সিম কার্ড</string>
+    
+    <string name="lockscreen_permanent_disabled_sim_instructions">আপনার সিম কার্ড স্থায়ীভাবে নিষ্ক্রিয় করা হয়েছে। \n অন্য সিম কার্ডের জন্য আপনার ওয়্যারলেস সার্ভিস প্রোভাইডারের সাথে যোগাযোগ করুন।</string>
+
+    
+    <string name="lockscreen_transport_prev_description">পূর্ববর্তী ট্র্যাক বাটন</string>
+    
+    <string name="lockscreen_transport_next_description">পরবর্তী ট্র্যাক বাটন</string>
+    
+    <string name="lockscreen_transport_pause_description">বিরতি বাটন</string>
+    
+    <string name="lockscreen_transport_play_description">প্লে বাটন</string>
+    
+    <string name="lockscreen_transport_stop_description">বন্ধ করার বাটন</string>
+
+    
+    <string name="emergency_calls_only" msgid="2485604591272668370">কেবল জরুরি কল</string>
+
+    
+    <string name="lockscreen_network_locked_message">নেটওয়ার্ক লক করা</string>
+
+
+    
+    <string name="lockscreen_sim_puk_locked_message">সিম কার্ড পাক দ্বারা লক করা</string>
+    
+    <string name="lockscreen_sim_puk_locked_instructions">ব্যবহার নির্দেশিকা দেখুন বা কাস্টমার কেয়ারের সাথে যোগাযোগ করুন।</string>
+
+    
+    <string name="lockscreen_sim_locked_message">সিম কার্ড লক করা।</string>
+
+    
+    <string name="lockscreen_sim_unlock_progress_dialog_message">সিম কার্ড আনলক হচ্ছে \u2026</string>
+
+    
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">আপনি ভুলভাবে আপনার আনলক প্যাটার্ন <xliff:g id="number">%d</xliff:g> বার এঁকেছেন। \n\n আবার চেষ্টা করুন  <xliff:g id="number">%d</xliff:g> সেকেন্ডে। </string>
+
+    
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">আপনি ভুলভাবে আপনার পাসওয়ার্ড <xliff:g id="number">%d</xliff:g> বার টাইপ করেছেন। \n\n আবার চেষ্টা করুন  <xliff:g id="number">%d</xliff:g> সেকেন্ডে। </string>
+
+    
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">আপনি ভুলভাবে আপনার পিন<xliff:g id="number">%d</xliff:g> বার টাইপ করেছেন। \n\n আবার চেষ্টা করুন  <xliff:g id="number">%d</xliff:g> সেকেন্ডে। </string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">আপনি ভুলভাবে আপনার আনলক প্যাটার্ন  <xliff:g id="number">%d</xliff:g> বার এঁকেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টার পর, আপনাকে বলা হবে আপনার ট্যাবলেটকে গুগল সাইন-ইন ব্যবহার করে আনলক করার জন্য।\n\n আবার চেষ্টা করুন <xliff:g id="number">%d</xliff:g> সেকেন্ডে।</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">আপনি ভুলভাবে আপনার আনলক প্যাটার্ন  <xliff:g id="number">%d</xliff:g> বার এঁকেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টার পর, আপনাকে বলা হবে আপনার ফোনকে গুগল সাইন-ইন ব্যবহার করে আনলক করার জন্য।\n\n আবার চেষ্টা করুন <xliff:g id="number">%d</xliff:g> সেকেন্ডে।</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">আপনি ভুলভাবে ট্যাবলেটকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টা করার পর, ট্যাবলেটটি ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে এবং সব ডাটা হারিয়ে যাবে।</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">আপনি ভুলভাবে ফোনকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টা করার পর, ফোনটি ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে এবং সব ডাটা হারিয়ে যাবে।</string>
+
+    
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">আপনি ভুলভাবে ট্যাবলেটকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। ট্যাবলেটটি এখন ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে।</string>
+
+    
+    <string name="lockscreen_failed_attempts_now_wiping" product="default">আপনি ভুলভাবে ফোনকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। ফোনটি এখন ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে।</string>
+
+    
+    <string name="lockscreen_too_many_failed_attempts_countdown">  <xliff:g id="number">%d</xliff:g> সেকেন্ডের মধ্যে আবার চেষ্টা করুন। </string>
+
+    
+    <string name="lockscreen_forgot_pattern_button_text">প্যাটার্ন ভুলে গেছেন?</string>
+
+    
+    <string name="lockscreen_glogin_forgot_pattern">অ্যাকাউন্ট আনলক করা</string>
+    
+    <string name="lockscreen_glogin_too_many_attempts">অনেক বেশিবার প্যাটার্ন চেষ্টা</string>
+    
+    <string name="lockscreen_glogin_instructions">আনলক করতে আপনার গুগল একাউন্ট দিয়ে সাইন-ইন করুন।</string>
+    
+    <string name="lockscreen_glogin_username_hint">ব্যবহারকারী নাম (ইমেইল)</string>
+    
+    <string name="lockscreen_glogin_password_hint">পাসওয়ার্ড</string>
+    
+    <string name="lockscreen_glogin_submit_button">সাইন ইন করুন</string>
+    
+    <string name="lockscreen_glogin_invalid_input">অকার্যকর ব্যবহারকারী নাম বা পাসওয়ার্ড</string>
+    
+    <string name="lockscreen_glogin_account_recovery_hint">আপনার ব্যবহারকারী নাম বা পাসওয়ার্ড ভুলে গেছেন\?\n ভিজিট করুন <b>google.com/accounts/recovery</b>.</string>
+
+    
+    <string name="lockscreen_glogin_checking_password">আগত সার্ভার সেটিং চেক করা হচ্ছে\u2026</string>
+    
+    <string name="lockscreen_unlock_label">আনলক করুন</string>
+    
+    <string name="lockscreen_sound_on_label">সাউন্ট চালু</string>
+    
+    <string name="lockscreen_sound_off_label">সাউন্ড বন্ধ</string>
+
+    
+    <string name="lockscreen_access_pattern_start">প্যাটার্ন শুরু হয়েছে</string>
+    
+    <string name="lockscreen_access_pattern_cleared">প্যাটার্ন মুছে গেছে</string>
+    
+    <string name="lockscreen_access_pattern_cell_added">সেল যোগ হয়েছে</string>
+    
+    <string name="lockscreen_access_pattern_detected">প্যাটার্ন সম্পন্ন হয়েছে</string>
+
+   
+</resources>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Formatting note: terminate all comments with a period, to avoid breaking 
+     the documentation output. To suppress comment lines from the documentation 
+     output, insert an eat-comment element after the comment lines.
+-->
+
+<resources>
+    <!-- jz add for iphone style -->
+    <attr name="ItemPlace">
+        <flag name="first" value="1" />
+        <flag name="last" value="2" />
+    </attr>
+    <attr name="SummaryStyle">
+        <enum name="none" value="0" />
+        <enum name="bottom" value="1" />
+        <enum name="right" value="2" />
+    </attr>
+    
+    <attr name="AutoFirstAndLast" format="boolean"/>
+    <attr name="EnableFirstLastState" format="boolean" />
+    
+    <attr name="JzsItemPlace">
+        <flag name="first" value="1" />
+        <flag name="last" value="2" />
+    </attr>
+    
+    <attr name="JzsExtAttrs">
+    		<!-- ListView. -->
+        <flag name="DisableListSelector" value="0x01" />
+        <flag name="EnableFirstLastState" value="0x02" />
+    </attr>
+    
+    <attr name="JzsSummaryStyle">
+        <flag name="none" value="0" />
+        <flag name="bottom" value="1" />
+        <flag name="right" value="2" />
+    </attr>
+    
+    <attr name="JzsGravity" parent="android:gravity"/>
+    <attr name="JzsUserPadding" format="dimension" />
+    <!-- Sets the padding, in pixels, of the left edge; see {@link android.R.attr#padding}. -->
+    <attr name="JzsUserPaddingLeft" format="dimension" />
+    <!-- Sets the padding, in pixels, of the top edge; see {@link android.R.attr#padding}. -->
+    <attr name="JzsUserPaddingTop" format="dimension" />
+    <!-- Sets the padding, in pixels, of the right edge; see {@link android.R.attr#padding}. -->
+    <attr name="JzsUserPaddingRight" format="dimension" />
+    <!-- Sets the padding, in pixels, of the bottom edge; see {@link android.R.attr#padding}. -->
+    <attr name="JzsUserPaddingBottom" format="dimension" />
+    <!-- Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. -->
+    <attr name="JzsUserPaddingStart" format="dimension" />
+    <!-- Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. -->
+    <attr name="JzsUserPaddingEnd" format="dimension" />
+    
+    <attr name="JzsIsAutoFirstAndLast"  format="boolean"/>
+    <attr name="packageName" format="string" />
+    <attr name="className" format="string" />
+    <attr name="iconResourceName" format="reference|string" />
+    <attr name="titleResourceName" format="reference|string" />
+    
+    <attr name="keyRepeat" format="boolean" />       
+    <attr name="btnAction" format="string" />
+    <attr name="positionDegress" format="integer" />
+    
+   <!-- These are the standard attributes that make up a complete theme. -->
+    <declare-styleable name="JzsTargetImageView">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="JzsTargetTextView">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>   
+    
+    <attr name="targetDrawables" format="reference"/>
+    <attr name="targetDescriptions" format="reference"/>
+
+    <!-- Reference to an array resource that be used to announce the directions with targets around the circle. -->
+    <attr name="directionDescriptions" format="reference"/>
+
+    <!-- Sets a drawable as the drag center. -->
+    <attr name="handleDrawable" format="reference" />
+
+    <!-- Drawables to use for chevron animations. May be null. -->
+    <attr name="chevronDrawables" format="reference"/>
+
+    <!-- Drawable to use for wave ripple animation. -->
+    <attr name="waveDrawable" format="reference" />
+
+    <!-- Outer radius of target circle. Icons will be drawn on this circle. -->
+    <attr name="outerRadius" format="dimension" />
+    
+    <attr name="innerRadius" format="dimension" />
+
+    <!-- Tactile feedback duration for actions. Set to '0' for no vibration. -->
+    <attr name="vibrationDuration" format="integer"/>
+
+    <!-- How close we need to be before snapping to a target. -->
+    <attr name="snapMargin" format="dimension" />
+
+    <!-- Number of waves/chevrons to show in animation. -->
+    <attr name="feedbackCount" format="integer" />
+
+    <!-- Used when the handle shouldn't wait to be hit before following the finger -->
+    <attr name="alwaysTrackFinger" format="boolean" />
+    
+    <declare-styleable name="MultiWaveView">
+        <!-- Reference to an array resource that be shown as targets around a circle. -->
+        <attr name="targetDrawables" />
+
+        <!-- Reference to an array resource that be used as description for the targets around the circle. -->
+        <attr name="targetDescriptions" />
+
+        <!-- Reference to an array resource that be used to announce the directions with targets around the circle. -->
+        <attr name="directionDescriptions" />
+
+        <!-- Sets a drawable as the drag center. -->
+        <attr name="handleDrawable" />
+
+        <!-- Drawables to use for chevron animations. May be null. -->
+        <attr name="chevronDrawables" />
+
+        <!-- Drawable to use for wave ripple animation. -->
+        <attr name="waveDrawable" />
+
+        <!-- Outer radius of target circle. Icons will be drawn on this circle. -->
+        <attr name="outerRadius" />
+
+        <!-- Tactile feedback duration for actions. Set to '0' for no vibration. -->
+        <attr name="vibrationDuration" />
+
+        <!-- How close we need to be before snapping to a target. -->
+        <attr name="snapMargin" />
+
+        <!-- Number of waves/chevrons to show in animation. -->
+        <attr name="feedbackCount" />
+
+        <!-- Used when the handle shouldn't wait to be hit before following the finger -->
+        <attr name="alwaysTrackFinger" />
+    </declare-styleable>
+    
+    <declare-styleable name="GlowPadView">
+        <!-- Reference to an array resource that be shown as targets around a circle. -->
+        <attr name="targetDrawables"/>
+
+        <!-- Reference to an array resource that be used as description for the targets around the circle. -->
+        <attr name="targetDescriptions"/>
+
+        <!-- Reference to an array resource that be used to announce the directions with targets around the circle. -->
+        <attr name="directionDescriptions"/>
+
+        <!-- Sets a drawable as the center. -->
+        <attr name="handleDrawable"/>
+
+        <!-- Drawable to use for wave ripple animation. -->
+        <attr name="outerRingDrawable" format="reference"/>
+
+        <!-- Drawble used for drawing points -->
+        <attr name="pointDrawable" format="reference" />
+
+        <!-- Inner radius of glow area. -->
+        <attr name="innerRadius"/>
+
+        <!-- Outer radius of glow area. Target icons will be drawn on this circle. -->
+        <attr name="outerRadius"/>
+
+        <!-- Radius of glow under finger. -->
+        <attr name="glowRadius" format="dimension" />
+
+        <!-- Tactile feedback duration for actions. Set to '0' for no vibration. -->
+        <attr name="vibrationDuration"/>
+
+        <!-- How close we need to be before snapping to a target. -->
+        <attr name="snapMargin"/>
+
+        <!-- Number of waves/chevrons to show in animation. -->
+        <attr name="feedbackCount"/>
+
+        <!-- Used when the handle shouldn't wait to be hit before following the finger -->
+        <attr name="alwaysTrackFinger"/>
+
+        <!-- Location along the circle of the first item, in degrees.-->
+        <attr name="firstItemOffset" format="float" />
+
+        <!-- Causes targets to snap to the finger location on activation. -->
+        <attr name="magneticTargets" format="boolean" />
+
+   <!--     <attr name="gravity" /> -->
+
+        <!-- Determine whether the glow pad is allowed to scale to fit the bounds indicated
+            by its parent. If this is set to false, no scaling will occur. If this is set to true
+            scaling will occur to fit for any axis in which gravity is set to center. -->
+        <attr name="allowScaling" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="View">
+    		<attr name="DisableParentPadding" format="boolean" />
+        <attr name="ItemPlace" />
+    </declare-styleable>
+    
+    <declare-styleable name="PreferenceGroup">
+        <attr name="AutoFirstAndLast" />
+    </declare-styleable>
+    
+    <declare-styleable name="ListView">
+    	<attr name="EnableFirstLastState" />
+    </declare-styleable>
+    
+    <declare-styleable name="PreferenceHeader">
+    	<attr name="ItemPlace" />
+      <attr name="SummaryStyle"/>
+    </declare-styleable>
+    
+    <declare-styleable name="Preference">
+    	<attr name="ItemPlace" />
+      <attr name="SummaryStyle"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ClockView">
+    	<attr name="ClockFontFile" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="FavoriteIcons">
+    	<attr name="packageName" />
+    	<attr name="className"  />
+    	<attr name="icon" format="reference" />  
+      <attr name="title" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="FavoriteSystemDefault">
+    	<attr name="SystemKey" format="string" />
+    	<attr name="SystemValue" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="FavoritePluginDefault">
+    	<attr name="pluginFor" format="string" />
+    	<attr name="packageName" />
+    	<attr name="className" />
+    	<attr name="pluginType" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="JzsCircleShortCutContainer">
+    		<attr name="android:gravity" />  
+    		<attr name="JzsUserPaddingTop" />  
+    		<attr name="JzsUserPaddingBottom" />  
+    </declare-styleable>
+
+    <declare-styleable name="JzsCircleShortCutViewGroup">
+    		<attr name="radiusPadding" format="dimension" />  
+    </declare-styleable>
+    
+    <declare-styleable name="JzsScImageView">
+    		<attr name="android:keycode" />
+        <attr name="keyRepeat" />
+        <attr name="btnAction" />
+        <attr name="positionDegress" />
+    </declare-styleable>
+    
+    <declare-styleable name="JzsScTextView">
+    		<attr name="android:keycode" />
+        <attr name="keyRepeat" />
+        <attr name="btnAction" />
+        <attr name="positionDegress" />
+    </declare-styleable>
+    
+    <attr name="PluginFor" format="reference|string" />
+    <attr name="PluginType" format="reference|integer" />
+    <attr name="PluginForStyle" format="reference|integer" />
+    <attr name="PluginForSubStyle" format="reference|integer" />
+    <attr name="PluginDetail" format="reference" />
+    <attr name="PluginPriority" format="integer" />
+    <attr name="isClearUserData" format="boolean" />
+    <attr name="isThemePlugin" format="boolean" />
+    <attr name="PluginParameter" format="integer" />
+        
+    <declare-styleable name="Plugin">
+        <attr name="PluginFor" />
+        <attr name="PluginType" />
+        <attr name="PluginDetail" />
+        <attr name="PluginForStyle" />
+    		<attr name="PluginForSubStyle" />
+        <attr name="PluginPriority" />
+    		<attr name="isClearUserData" />
+    		<attr name="PluginParameter" />
+    </declare-styleable>
+    
+    <declare-styleable name="PluginTarget">
+        <attr name="PluginType" />
+        <attr name="PluginDetail" />
+        <attr name="isClearUserData" />
+        <attr name="isThemePlugin" />
+        <attr name="PluginParameter" />
+    </declare-styleable>
+</resources>

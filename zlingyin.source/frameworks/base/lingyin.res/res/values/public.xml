@@ -1,0 +1,181 @@
+<!-- This file defines the base public resources exported by the
+     platform, which must always exist. -->
+
+<!-- ***************************************************************
+     ***************************************************************
+     IMPORTANT NOTE FOR ANYONE MODIFYING THIS FILE
+     READ THIS BEFORE YOU MAKE ANY CHANGES
+
+     This file defines the binary compatibility for resources.  As such,
+     you must be very careful when making changes here, or you will
+     completely break backwards compatibility with old applications.
+
+     To avoid breaking compatibility, all new resources must be placed
+     at the end of the list of resources of the same type.  Placing a resource
+     in the middle of type will cause all following resources to be
+     assigned new resource numbers, breaking compatibility.
+
+     ***************************************************************
+     *************************************************************** -->
+<resources>
+
+  <!-- We don't want to publish private symbols in com.mediatek.R as part of the
+       SDK.  Instead, put them here. -->
+<!--  <private-symbols package="com.lingyin.internal" />
+
+ ===============================================================
+     Resources for version 1 of the platform.
+     =============================================================== -->
+  <eat-comment />
+  
+  <public type="string" name="theme_plugin_permission" id="0x03030000" />
+  <public type="string" name="theme_support_plugin_permission" id="0x03030001" />
+  <public type="string" name="theme_plugin_description" id="0x03030002" />
+  <public type="string" name="theme_support_plugin_description" id="0x03030003" />
+  <public type="string" name="PluginFor_Unkown" id="0x03030004" />
+  <public type="string" name="PluginFor_Lockscreen" id="0x03030005" />
+  <public type="string" name="PluginFor_Lockscreen_Skin" id="0x03030006" />
+  <public type="string" name="PluginFor_SystemThemeStyle" id="0x03030007" />
+<!--  <public type="string" name="PluginFor_SystemThemeStyle_Skin" id="0x03030008" /> -->
+  
+  <public type="string" name="folder_name_common" id="0x03030008" />
+  <public type="string" name="folder_name_media" id="0x03030009" />
+  <public type="string" name="folder_name_social" id="0x0303000a" />
+  <public type="string" name="folder_name_game" id="0x0303000b" />
+  <public type="string" name="folder_name_tool" id="0x0303000c" />
+  
+  <public type="string" name="ota_address_check_version" id="0x0303000d" />
+  <public type="string" name="ota_address_download" id="0x0303000e" />
+  
+  <public type="drawable" name="ic_folder_common" id="0x03020000" />
+  <public type="drawable" name="ic_folder_game" id="0x03020001" />
+  <public type="drawable" name="ic_folder_media" id="0x03020002" />
+  <public type="drawable" name="ic_folder_social" id="0x03020003" />
+  <public type="drawable" name="ic_app_icon_region_mask" id="0x03020004" />
+  <public type="drawable" name="ic_emergency_button_bg" id="0x03020005" />
+  
+ <!-- <public type="string" name="storage_withoutsd" id="0x03030001" />     -->
+  
+  <public type="attr" name="isPluginPackage" id="0x03010000" />
+	<public type="attr" name="isThemePackage" id="0x03010001" />
+  <public type="attr" name="themeNameId" id="0x03010002" />
+  
+  <public type="attr" name="AutoFirstAndLast" id="0x03010003" />
+  <public type="attr" name="ItemPlace" id="0x03010004" />
+  <public type="attr" name="DisableParentPadding" id="0x03010005" />
+  <public type="attr" name="EnableFirstLastState" id="0x03010006" />
+  <public type="attr" name="SummaryStyle" id="0x03010007" />
+  <public type="attr" name="ClockFontFile" id="0x03010008" />
+<!--  <public type="attr" name="DisableParentPadding" id="0x03010005" /> -->
+  
+  
+<!--
+	<public type="attr" name="JzsDisableListSelector" id="0x030103e0" />
+  <public type="attr" name="JzsEnableFirstLastState" id="0x030103e1" />
+  <public type="attr" name="JzsItemPlace" id="0x030103e2" />
+  <public type="attr" name="JzsSummaryStyle" id="0x030103e3" />
+  <public type="attr" name="JzsIsDisableChangeColor" id="0x030103e4" />
+  <public type="attr" name="JzsIsAutoFirstAndLast" id="0x030103e5" />
+  <public type="attr" name="JzsDisableParentPadding" id="0x030103e6" />
+  
+  -->
+  
+  <public type="integer" name="STYLE_UNKOWN" id="0x03070000" />
+  <public type="integer" name="STYLE_DEFAULT" id="0x03070001" />
+  <public type="integer" name="STYLE_DROID_ICS" id="0x03070002" />
+  <public type="integer" name="STYLE_DROID_GB" id="0x03070003" />
+  <public type="integer" name="STYLE_MTK" id="0x03070004" />
+  <public type="integer" name="STYLE_QISHANG" id="0x03070005" />
+  <public type="integer" name="STYLE_IPHONE" id="0x03070006" />
+  <public type="integer" name="STYLE_WPHONE" id="0x03070007" />
+  <public type="integer" name="STYLE_HTC" id="0x03070008" />
+  <public type="integer" name="STYLE_MEGOO" id="0x03070009" />
+  <public type="integer" name="STYLE_MOTO" id="0x0307000a" />
+  <public type="integer" name="STYLE_MEIZU" id="0x0307000b" />
+  <public type="integer" name="STYLE_XIAOMI" id="0x0307000c" />
+  <public type="integer" name="STYLE_SAMSUNG" id="0x0307000d" />
+  <public type="integer" name="STYLE_IHD" id="0x0307000e" />
+  
+  
+  <public type="integer" name="SUB_STYLE_ANY" id="0x0307000f" />
+  <public type="integer" name="SUB_STYLE_FY" id="0x03070010" />
+  <public type="integer" name="SUB_STYLE_I9100" id="0x03070011" />
+  <public type="integer" name="SUB_STYLE_I9500" id="0x03070012" />
+  
+  <public type="integer" name="STYLE_LAOREN" id="0x03070013" />
+  
+  
+  <public type="integer" name="PluginParam_Empty" id="0x03070014" />
+  <public type="integer" name="PluginParam_Context" id="0x03070015" />
+  
+  <public type="integer" name="PluginType_Unkown" id="0x03070016" />
+  <public type="integer" name="PluginType_Skin" id="0x03070017" />
+  <public type="integer" name="PluginType_Style" id="0x03070018" />
+  <public type="integer" name="PluginType_Style_And_Skin" id="0x03070019" />
+  <public type="integer" name="config_appDefaultIconStyleIndex" id="0x0307001a" />
+  
+  <public type="integer" name="ota_check_version_timeout" id="0x0307001b" />
+ 
+  
+  
+  <public type="layout" name="keyguard_carrier_view" id="0x03040000" />
+  <public type="layout" name="keyguard_carrier_view_gemini" id="0x03040001" />
+  <public type="layout" name="keyguard_message_area" id="0x03040002" />
+  <public type="layout" name="circle_shortcut_container" id="0x03040003" />
+  <public type="layout" name="preference_holo" id="0x03040004" />
+  <public type="layout" name="aa_keyguard_host_view" id="0x03040005" />
+  <public type="layout" name="aa_keyguard_screen_tab_unlock_default" id="0x03040006" />
+  
+  <public type="id" name="aa_keyguard_host_view" id="0x03080000" />
+  <public type="id" name="aa_keyguard_message_area" id="0x03080001" />
+  <public type="id" name="aa_touch_lock_ctrl" id="0x03080002" />
+  
+  <public type="dimen" name="app_icon_size" id="0x03090000" />
+  
+  <public type="xml" name="default_icons" id="0x03050000" />
+  <public type="xml" name="default_plugins" id="0x03050001" />
+  <public type="xml" name="default_bookmarks" id="0x03050002" />
+  
+  
+  <public type="style" name="AppTheme" id="0x030a0000" />
+  <public type="style" name="AppTheme.NoActionBar" id="0x030a0001" />
+  <public type="style" name="AppTheme.NoActionBar.NoAnimation" id="0x030a0002" />
+  <public type="style" name="AppTheme.NoActionBar.Fullscreen" id="0x030a0003" />
+  <public type="style" name="AppTheme.WallpaperPicker" id="0x030a0004" />
+  <public type="style" name="AppTheme.Dialog" id="0x030a0005" />
+  <public type="style" name="AppTheme.Dialog.Alert" id="0x030a0006" />
+  <public type="style" name="AppTheme.Dialog.NoActionBar" id="0x030a0007" />
+  <public type="style" name="AppTheme.Panel" id="0x030a0008" />  
+  <public type="style" name="AppTheme.DialogWhenLarge" id="0x030a0009" />
+  <public type="style" name="AppTheme.DialogWhenLarge.NoActionBar" id="0x030a000a" />  
+  <public type="style" name="AppTheme.Wallpaper" id="0x030a000b" />
+  <public type="style" name="AppTheme.Wallpaper.NoTitleBar" id="0x030a000c" />
+  <public type="style" name="AppTheme.Wallpaper.NoTitleBar.Fullscreen" id="0x030a000d" />
+  <public type="style" name="AppTheme.NoTitleBar" id="0x030a000e" />
+  <public type="style" name="AppTheme.NoAnimation" id="0x030a000f" />
+  <public type="style" name="AppTheme.NoDisplay" id="0x030a0010" />
+  <public type="style" name="AppTheme.Translucent" id="0x030a0011" />
+  <public type="style" name="AppTheme.Translucent.NoTitleBar" id="0x030a0012" />
+  <public type="style" name="AppTheme.Dialog.NoFrame" id="0x030a0013" />
+  <public type="style" name="AppTheme.Light.DarkActionBar" id="0x030a0014" />
+  <public type="style" name="AppTheme.Light" id="0x030a0015" />
+  <public type="style" name="AppTheme.Dark" id="0x030a0016" />
+  <public type="style" name="AppTheme.Dark.NoDisplay" id="0x030a0017" />
+  <public type="style" name="AppTheme.Dark.NoActionBar" id="0x030a0018" />
+  <public type="style" name="AppTheme.Dark.NoActionBar.Fullscreen" id="0x030a0019" />
+  <public type="style" name="AppTheme.Dark.NoActionBar.NoAnimation" id="0x030a001a" />
+  <public type="style" name="AppTheme.Light.NoDisplay" id="0x030a001b" />
+  <public type="style" name="AppTheme.Light.NoActionBar" id="0x030a001c" />
+  <public type="style" name="AppTheme.Light.NoActionBar.Fullscreen" id="0x030a001d" />
+  <public type="style" name="AppTheme.Light.NoActionBar.NoAnimation" id="0x030a001e" />
+  
+  
+  <public type="array" name="config_appIconFrameBackground" id="0x03060000" />
+  <public type="array" name="config_appDefaultIconStyles" id="0x03060001" />
+  <public type="array" name="config_appIconFrameBgAndMaskArray" id="0x03060002" />
+  <public type="array" name="config_appDefaultIconStyles_TitleEntrys" id="0x03060003" />
+  
+  <public type="color" name="slideindexrbar_text_color_dark" id="0x030b0000" />
+	<public type="color" name="slideindexrbar_text_color_light" id="0x030b0001" />
+  
+</resources>

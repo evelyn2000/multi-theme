@@ -1,0 +1,3 @@
+misc/qsinfo
+jzs/data
+jzs/icons

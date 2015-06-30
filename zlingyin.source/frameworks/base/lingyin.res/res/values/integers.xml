@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+		<!-- plugin class type -->
+		<integer name="PluginType_Unkown">0x0</integer>
+    <integer name="PluginType_Skin">0x1</integer>
+    <integer name="PluginType_Style">0x2</integer>
+    <integer name="PluginType_Style_And_Skin">0x3</integer>
+    
+    
+    
+    <!-- plugin for target -->
+
+	
+		<!-- plugin class parameter  -->
+    <integer name="PluginParam_Empty">0x0</integer>
+    <integer name="PluginParam_Context">0x1</integer>
+    
+    
+    <!-- main theme -->
+    <integer name="STYLE_UNKOWN">-1</integer>
+    <integer name="STYLE_DEFAULT">0</integer>
+    <integer name="STYLE_DROID_ICS">0</integer>
+    <integer name="STYLE_DROID_GB">1</integer>
+    <integer name="STYLE_MTK">2</integer>
+    <integer name="STYLE_QISHANG">3</integer>
+    <integer name="STYLE_IPHONE">4</integer>
+    <integer name="STYLE_WPHONE">5</integer>
+    <integer name="STYLE_HTC">6</integer>
+    <integer name="STYLE_MEGOO">7</integer>
+    <integer name="STYLE_MOTO">8</integer>
+    <integer name="STYLE_MEIZU">9</integer>
+    <integer name="STYLE_XIAOMI">10</integer>
+    <integer name="STYLE_SAMSUNG">11</integer>
+    <integer name="STYLE_IHD">12</integer>
+    <integer name="STYLE_LAOREN">13</integer>
+    
+    <!-- sub theme -->
+    <integer name="SUB_STYLE_ANY">0</integer>
+    <integer name="SUB_STYLE_FY">1</integer>
+    <integer name="SUB_STYLE_I9100">6</integer>
+    <integer name="SUB_STYLE_I9500">7</integer>
+    
+    <!-- 3D -->
+    <integer name="SUB_STYLE_QS1">9</integer>
+    
+    <integer name="SUB_STYLE_QS2">10</integer>
+    
+    <integer name="THEME_PACKAGE_PLUGIN_IDENTIFY">0x10000</integer>
+    
+</resources>

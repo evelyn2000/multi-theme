@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="zzzz_qs_htc_unlock_string">滑動來解鎖</string>
+		<string name="zzzz_qs_htc_locked">螢幕已鎖</string>
+		
+		<string name="zzzz_qs_iphone_unlock_string">滑動來解鎖</string>
+		
+		<string name="zzzz_qs_sdcard_music">音樂</string>
+		<string name="zzzz_qs_system_music">內置鈴聲</string>
+		<string name="zzzz_qs_str_sdcard">SD卡</string>
+		<string name="zzzz_qs_str_system">內置</string>
+		
+		<string name="zzzz_iphone_str_back">返回</string>
+		
+		<string name="zzzz_iphone_slideshutdownstring">滑動來關機</string>
+   	<string name="zzzz_iphone_open_silent_mode">開啟靜音模式</string>
+   	<string name="zzzz_iphone_close_silent_mode">關閉靜音模式</string>
+   	<string name="zzzz_iphone_open_airplane_mode">開啟飛航模式</string>
+   	<string name="zzzz_iphone_close_airplane_mode">關閉飛航模式</string>
+   	
+   	<string name="zzzz_iphone_password_enter_password">請輸入密碼</string>
+   	<string name="zzzz_iphone_password_emergency_call">緊急呼叫</string>
+   	
+   	<string name="zzzz_ss_lockscreen_unlock_guide_text">滑動螢幕以解鎖</string>
+   	<string name="zzzz_ss_lockscreen_short_cut_guide_text">滑動快捷方式來打開應用</string>
+   	
+   	<string name="zzzz_ss_power_dialog">設備選項</string>
+   	
+   	<string name="qs_shutdown_reboot_confirm" product="tablet">移動設備將要重新啟動。</string>
+    <string name="qs_shutdown_reboot_confirm" product="default">你的移動設備將要重新啟動。</string>
+    <string name="zzzz_ss_shortcut_calllog">通話記錄</string>
+    <string name="zzzz_ss_shortcut_contacts">電話本</string>
+    <string name="zzzz_ss_shortcut_mms">信息</string>
+    <string name="zzzz_ss_shortcut_camera">照相機</string>
+    <string name="zzzz_ss_shortcut_dial">撥號器</string>
+    <string name="zzzz_htc_lockscreen_missing_sim_short">僅撥打緊急電話</string>
+    <string name="zzzz_ss_shortcut_email">Email</string>
+    
+</resources>

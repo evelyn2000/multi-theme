@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customctrl="http://schemas.android.com/apk/res/com.jzs.android.systemstyle"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+<LinearLayout android:id="@+id/detailContainer"
+	android:orientation="vertical" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:visibility="gone"
+	android:background="@android:color/black">
+
+	<com.jzs.android.systemstyle.controls.BookmarkView
+		android:tag="bookmark" 
+		android:layout_height="match_parent"
+		android:layout_weight="1" 
+		android:layout_width="match_parent">
+	</com.jzs.android.systemstyle.controls.BookmarkView>
+	
+	<Button android:tag="apply_item" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+		android:text="@string/str_apply" >
+	</Button>
+
+</LinearLayout>
+
+</FrameLayout>

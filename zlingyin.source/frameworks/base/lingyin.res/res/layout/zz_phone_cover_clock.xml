@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- This is the general lock screen which shows information about the
+  state of the device, as well as instructions on how to get past it
+  depending on the state of the device.  It is the same for landscape
+  and portrait.-->
+  
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|top"
+    android:background="#FF000000"
+    >
+
+	    <com.jzs.internal.widget.DateClockView 
+	    	  android:id="@+id/digital_clock"
+	        android:layout_marginTop="55dp"
+	        android:layout_marginBottom="12dip"
+	        android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:tag="img">
+	        
+			<LinearLayout android:id="@+id/timecontainer"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:gravity="center_horizontal">
+			    <LinearLayout 
+			        android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+			        >
+				 	<ImageView android:tag="hourfirst"
+				 	    android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:src="@drawable/zz_icon_time_array"
+				    	android:layout_marginRight="1dp"/>
+			 	
+				 	<ImageView android:tag="hourlast"
+				 	    android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:src="@drawable/zz_icon_time_array"/>
+				 	
+				 	<ImageView 
+				 	    android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:src="@drawable/zz_icon_time_dot"
+				    	android:layout_marginLeft="2dp"
+				    	android:layout_marginRight="2dp"/>
+				 	
+				 	<ImageView android:tag="minutefirst"
+				 	    android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:src="@drawable/zz_icon_time_array"
+				    	android:layout_marginRight="1dp"/>
+				 	
+				 	<ImageView android:tag="minutelast"
+				 	    android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:src="@drawable/zz_icon_time_array"/>
+				    	
+				 	<ImageView android:tag="am_pm"
+				 	    android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:scaleX="0.8"
+				    	android:scaleY="1.0"
+				    	android:src="@drawable/zz_am_pm_icon"
+				    	android:visibility="gone"
+				    	android:layout_gravity="bottom"/>
+			 	</LinearLayout>
+			 	
+			 	<TextView 
+	          android:id="@+id/date"
+	          android:tag="ctrl_date_textview"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"
+	          android:singleLine="true"
+	          android:ellipsize="marquee"
+	          android:textSize="19.0dip" 
+	          android:textColor="#ffffffff"
+	          android:shadowColor="#FF000000"
+	          android:shadowRadius="1"
+	          android:shadowDy="1"
+	          android:shadowDx="1"
+	          android:gravity="center_horizontal"
+	          android:layout_gravity="center_horizontal"
+	          android:layout_marginTop="17dp"
+	          android:layout_below="@id/timecontainer"
+	          />
+			</LinearLayout>
+   		    
+    </com.jzs.internal.widget.DateClockView>
+
+</FrameLayout>

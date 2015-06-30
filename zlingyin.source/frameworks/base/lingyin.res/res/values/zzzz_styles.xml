@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@*android:style/ZzzzAppTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="AppTheme.Light" parent="@android:style/Theme.DeviceDefault.Light" />
+    
+    <style name="AppTheme.Dark" parent="@android:style/Theme.DeviceDefault" />
+    
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="AppTheme.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+        
+    <style name="AppTheme.NoActionBar.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    
+    <style name="AppTheme.WallpaperPicker" parent="AppTheme.NoActionBar">
+    </style>
+    
+ 		<style name="AppTheme.Dialog" parent="@*android:style/ZzzzAppTheme.Dialog">
+    </style>
+    
+    <style name="AppTheme.Dialog.Alert" parent="@*android:style/ZzzzAppTheme.Dialog.Alert">
+    </style>
+    
+    <style name="AppTheme.Dialog.NoActionBar">
+    	  <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+        
+    <style name="AppTheme.Panel" parent="@*android:style/ZzzzAppTheme.Panel">        
+    </style> 
+    
+    <style name="AppTheme.DialogWhenLarge">        
+    </style>
+    
+    <style name="AppTheme.DialogWhenLarge.NoActionBar">        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Wallpaper">
+    		<item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    
+    <style name="AppTheme.Wallpaper.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="AppTheme.Wallpaper.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="AppTheme.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="AppTheme.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    
+    <style name="AppTheme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+    
+    <style name="AppTheme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="AppTheme.Dialog.NoFrame">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    
+    <style name="AppTheme.Light.DarkActionBar" parent="@*android:style/ZzzzAppTheme.Light.DarkActionBar" />
+
+  
+  	<style name="AppTheme.Dark.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    
+    <style name="AppTheme.Dark.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="AppTheme.Dark.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+        
+    <style name="AppTheme.Dark.NoActionBar.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    
+    <style name="AppTheme.Light.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    
+    <style name="AppTheme.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="AppTheme.Light.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+        
+    <style name="AppTheme.Light.NoActionBar.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

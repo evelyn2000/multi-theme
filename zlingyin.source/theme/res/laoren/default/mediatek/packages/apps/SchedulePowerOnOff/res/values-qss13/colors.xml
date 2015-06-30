@@ -1,0 +1,4 @@
+<resources>
+    <color name="ampm_off">#ffC0C0C0</color>
+    <color name="ampm_on">#ff202020</color>    
+</resources>

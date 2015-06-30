@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<TabWidget xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabbarwidget"
+    android:layout_width="match_parent"
+    android:layout_height="60dip" 
+    android:background="@drawable/top_tab_bar_bg"
+    android:tabStripLeft="@drawable/ic_tab_bg_trans"
+    android:tabStripRight="@drawable/ic_tab_bg_trans"
+    >
+    
+	<TextView
+        android:tag="taglocal"
+        android:focusable="true"
+        android:background="@drawable/tabwidget_item_bg_2"
+        android:text="@string/str_tab_local"
+        android:textSize="14sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="2dip"
+        android:drawablePadding="-3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/tab_indicator_text" />
+	
+	<TextView
+        android:tag="tabonline"
+        android:focusable="true"
+        android:background="@drawable/tabwidget_item_bg_2"
+        android:text="@string/str_tab_online"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:paddingTop="2dip"
+        android:drawablePadding="-3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/tab_indicator_text" />
+
+
+</TabWidget>
+

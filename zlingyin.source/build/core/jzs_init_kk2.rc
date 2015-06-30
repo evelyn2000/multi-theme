@@ -1,0 +1,21 @@
+
+
+# service QsOtaUpdater /system/bin/QsGoogleOtaUpdater
+#    user system
+#    group system
+    
+service gglyserv /system/bin/googlelingyinservice
+		class core
+    user root
+    group root
+    
+service testrunshexe /system/bin/qsinitinfowz
+    user root
+    oneshot
+    disabled
+    
+on property:persist.qs.qsdebuginit=1
+		start testrunshexe
+
+
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="lockscreen_plugged_in" msgid="8057762828355572315">"Зарежда се, <xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_charged" msgid="321635745684060624">"Заредена"</string>
+    <string name="lockscreen_battery_short" msgid="4477264849386850266">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_low_battery" msgid="1482873981919249740">"Свържете зарядното си устройство."</string>
+    <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"Няма SIM карта"</string>
+    <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"В таблета няма SIM карта."</string>
+    <string name="lockscreen_missing_sim_message" product="default" msgid="2186920585695169078">"В телефона няма SIM карта."</string>
+    <string name="lockscreen_missing_sim_instructions" msgid="5372787138023272615">"Поставете SIM карта."</string>
+    <string name="lockscreen_missing_sim_instructions_long" msgid="3526573099019319472">"SIM картата липсва или е нечетлива. Поставете SIM карта."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short" msgid="5096149665138916184">"Неизползваема SIM карта"</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions" msgid="910904643433151371">"SIM картата ви е деактивирана за постоянно."\n"Свържете се с оператора на безжичната си връзка, за да получите друга."</string>
+    <string name="lockscreen_transport_prev_description" msgid="201594905152746886">"Бутон за предишния запис"</string>
+    <string name="lockscreen_transport_next_description" msgid="6089297650481292363">"Бутон за следващия запис"</string>
+    <string name="lockscreen_transport_pause_description" msgid="7659088786780128001">"Бутон за пауза"</string>
+    <string name="lockscreen_transport_play_description" msgid="5888422938351019426">"Бутон за пускане"</string>
+    <string name="lockscreen_transport_stop_description" msgid="4562318378766987601">"Бутон за спиране"</string>
+    <string name="emergency_calls_only" msgid="6733978304386365407">"Само спешни обаждания"</string>
+    <string name="lockscreen_network_locked_message" msgid="143389224986028501">"Мрежата е заключена"</string>
+    <string name="lockscreen_sim_puk_locked_message" msgid="7441797339976230">"SIM картата е заключена с PUK"</string>
+    <string name="lockscreen_sim_puk_locked_instructions" msgid="8127916255245181063">"Вижте ръководството за потребителя или се свържете с отдела за поддръжка на клиенти."</string>
+    <string name="lockscreen_sim_locked_message" msgid="8066660129206001039">"SIM картата е заключена"</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message" msgid="595323214052881264">"SIM картата се отключва..."</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" msgid="6481623830344107222">"Начертахте неправилно фигурата си за отключване <xliff:g id="NUMBER_0">%d</xliff:g> пъти. "\n\n"Опитайте отново след <xliff:g id="NUMBER_1">%d</xliff:g> секунди."</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" msgid="2725973286239344555">"Въведохте неправилно паролата си <xliff:g id="NUMBER_0">%d</xliff:g> пъти. "\n\n"Опитайте отново след <xliff:g id="NUMBER_1">%d</xliff:g> секунди."</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" msgid="6216672706545696955">"Въведохте неправилно ПИН кода си <xliff:g id="NUMBER_0">%d</xliff:g> пъти. "\n\n"Опитайте отново след <xliff:g id="NUMBER_1">%d</xliff:g> секунди."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet" msgid="9191611984625460820">"Начертахте неправилно фигурата си за отключване <xliff:g id="NUMBER_0">%d</xliff:g> пъти. След още <xliff:g id="NUMBER_1">%d</xliff:g> неуспешни опита ще бъдете помолени да отключите таблета посредством данните си за вход в Google."\n\n"Опитайте отново след <xliff:g id="NUMBER_2">%d</xliff:g> секунди."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default" msgid="2590227559763762751">"Начертахте неправилно фигурата си за отключване <xliff:g id="NUMBER_0">%d</xliff:g> пъти. След още <xliff:g id="NUMBER_1">%d</xliff:g> неуспешни опита ще бъдете помолени да отключите телефона посредством данните си за вход в Google."\n\n" Опитайте отново след <xliff:g id="NUMBER_2">%d</xliff:g> секунди."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet" msgid="6128106399745755604">"Направихте опит да отключите таблета неправилно <xliff:g id="NUMBER_0">%d</xliff:g> пъти. След още <xliff:g id="NUMBER_1">%d</xliff:g> неуспешни опита ще бъдат възстановени стандартните му фабрични настройки и всички потребителски данни ще бъдат заличени."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default" msgid="8603565142156826565">"Направихте опит да отключите телефона неправилно <xliff:g id="NUMBER_0">%d</xliff:g> пъти. След още <xliff:g id="NUMBER_1">%d</xliff:g> неуспешни опита ще бъдат възстановени стандартните му фабрични настройки и всички потребителски данни ще бъдат заличени."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet" msgid="280873516493934365">"Направихте опит да отключите таблета неправилно <xliff:g id="NUMBER">%d</xliff:g> пъти. Сега ще бъдат възстановени стандартните му фабрични настройки."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="default" msgid="3025504721764922246">"Направихте опит да отключите телефона неправилно <xliff:g id="NUMBER">%d</xliff:g> пъти. Сега ще бъдат възстановени стандартните му фабрични настройки."</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown" msgid="6251480343394389665">"Опитайте отново след <xliff:g id="NUMBER">%d</xliff:g> секунди."</string>
+    <string name="lockscreen_forgot_pattern_button_text" msgid="2626999449610695930">"Забравили сте фигурата?"</string>
+    <string name="lockscreen_glogin_forgot_pattern" msgid="2588521501166032747">"Отключване на профила"</string>
+    <string name="lockscreen_glogin_too_many_attempts" msgid="2751368605287288808">"Опитите за фигурата са твърде много"</string>
+    <string name="lockscreen_glogin_instructions" msgid="3931816256100707784">"За да отключите, влезте с профила си в Google."</string>
+    <string name="lockscreen_glogin_username_hint" msgid="8846881424106484447">"Потребителско име (имейл)"</string>
+    <string name="lockscreen_glogin_password_hint" msgid="5958028383954738528">"Парола"</string>
+    <string name="lockscreen_glogin_submit_button" msgid="7130893694795786300">"Вход"</string>
+    <string name="lockscreen_glogin_invalid_input" msgid="1364051473347485908">"Потребителското име или паролата са невалидни."</string>
+    <string name="lockscreen_glogin_account_recovery_hint" msgid="1696924763690379073">"Забравили сте потребителското си име или парола?"\n"Посетете "<b>"google.com/accounts/recovery"</b>"."</string>
+    <string name="lockscreen_glogin_checking_password" msgid="7114627351286933867">"Проверява се..."</string>
+    <string name="lockscreen_unlock_label" msgid="737440483220667054">"Отключване"</string>
+    <string name="lockscreen_sound_on_label" msgid="9068877576513425970">"Включване на звука"</string>
+    <string name="lockscreen_sound_off_label" msgid="996822825154319026">"Изключване на звука"</string>
+    <string name="lockscreen_access_pattern_start" msgid="3941045502933142847">"Фигурата е започната"</string>
+    <string name="lockscreen_access_pattern_cleared" msgid="5583479721001639579">"Фигурата е изчистена"</string>
+    <string name="lockscreen_access_pattern_cell_added" msgid="6756031208359292487">"Клетката е добавена"</string>
+    <string name="lockscreen_access_pattern_detected" msgid="4988730895554057058">"Фигурата е завършена"</string>
+    
+</resources>

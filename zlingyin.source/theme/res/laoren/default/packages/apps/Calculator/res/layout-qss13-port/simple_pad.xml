@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+* Copyright (C) 2011, The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/simplePad"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              >
+	<LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/clear"
+            android:src="@drawable/clear"
+            android:tag="@string/clear"
+            style="@style/button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/del"
+            android:src="@drawable/del"
+            android:tag="@string/del"
+            style="@style/button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/div"
+            android:src="@drawable/div"
+            android:tag="@string/div"
+            style="@style/button_style"
+            android:contentDescription="@string/divDesc"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/mul"
+            android:src="@drawable/mul"
+            android:tag="@string/mul"
+            style="@style/button_style"
+            android:contentDescription="@string/mulDesc"
+            />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/digit1"
+            android:src="@drawable/num01"
+            android:tag="@string/digit1"
+            style="@style/digit_button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/digit2"
+            android:src="@drawable/num02"
+            android:tag="@string/digit2"
+            style="@style/digit_button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/digit3"
+            android:src="@drawable/num03"
+            android:tag="@string/digit3"
+            style="@style/digit_button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/minus"
+            android:src="@drawable/minus"
+            android:tag="@string/minus"
+            style="@style/button_style"
+            android:contentDescription="@string/minusDesc"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/digit4"
+            android:src="@drawable/num04"
+            android:tag="@string/digit4"
+            style="@style/digit_button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/digit5"
+           android:src="@drawable/num05"
+            android:tag="@string/digit5"
+            style="@style/digit_button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/digit6"
+            android:src="@drawable/num06"
+            android:tag="@string/digit6"
+            style="@style/digit_button_style"
+            />
+        <com.android.calculator2.QsImageButton
+            android:id="@+id/plus"
+            android:src="@drawable/plus"
+            android:tag="@string/plus"
+            style="@style/button_style"
+            android:contentDescription="@string/plusDesc"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_height="0dp">
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout 
+                    android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:orientation="horizontal">
+                    <com.android.calculator2.QsImageButton
+			            android:id="@+id/digit7"
+			            android:layout_weight="1"
+			            android:src="@drawable/num07"
+			            android:tag="@string/digit7"
+			            style="@style/digit_button_style"
+           			/>
+			        <com.android.calculator2.QsImageButton
+			            android:id="@+id/digit8"
+			            android:src="@drawable/num08"
+			            android:layout_weight="1"
+			            android:tag="@string/digit8"
+			            style="@style/digit_button_style"
+			            />
+			        <com.android.calculator2.QsImageButton
+			            android:id="@+id/digit9"
+			            android:src="@drawable/num09"
+			            android:tag="@string/digit9"
+			            android:layout_weight="1"
+			            style="@style/digit_button_style"
+			            />
+                </LinearLayout>
+             </LinearLayout>
+             
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout 
+                    android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:weightSum="3"
+	                android:orientation="horizontal">
+			        <com.android.calculator2.QsImageButton
+			            android:id="@+id/digit0"
+			            android:src="@drawable/num00"
+			            android:tag="@string/digit0"
+			            android:layout_weight="1"
+			            style="@style/digit_button_style"
+			            />
+	                <com.android.calculator2.QsImageButton
+			            android:id="@+id/dot"
+			            android:src="@drawable/dot"
+			            android:tag="@string/dot"
+			            style="@style/digit_button_style"
+			            android:layout_weight="2"
+			            android:contentDescription="@string/dotDesc"
+			            />
+			        
+			        </LinearLayout>
+             </LinearLayout>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <com.android.calculator2.QsImageButton
+	            android:id="@+id/equal"
+	            android:src="@drawable/equal"
+	            android:tag="@string/equal"
+	            style="@style/button_style"
+	            android:background="@drawable/zzzz_qs_num00_bg_selector"
+	            android:contentDescription="@string/equalDesc"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+# Don't obfuscate. We only need dead code striping.
+#-dontobfuscate
+
+
+-keep public class * {
+    public protected *;
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}

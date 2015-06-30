@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="aa_shortcut_icon_str_settings">"Paramètres"</string>
+  <string name="aa_shortcut_icon_str_back">"Arrière"</string>
+  <string name="aa_shortcut_icon_str_home">"écran prin.."</string>
+  <string name="aa_shortcut_icon_str_customapps">"App personnalisé"</string>
+  <string name="aa_shortcut_icon_str_screenshot">"Captures..</string>
+  <string name="aa_shortcut_icon_str_lockscreen">"Verrouiller.."</string>
+
+<string name="lockscreen_carrier_default" msgid="8963839242565653192">"Aucun service"</string>
+    <string name="lockscreen_screen_locked" msgid="7288443074806832904">"Écran verrouillé"</string>
+    <string name="lockscreen_instructions_when_pattern_enabled" msgid="46154051614126049">"Appuyez sur \"Menu\" pour déverrouiller le téléphone ou appeler un numéro d\'urgence"</string>
+    <string name="lockscreen_instructions_when_pattern_disabled" msgid="686260028797158364">"Appuyez sur \"Menu\" pour déverrouiller le téléphone."</string>
+    <string name="lockscreen_pattern_instructions" msgid="7478703254964810302">"Dessinez un schéma pour déverrouiller le téléphone"</string>
+    <string name="lockscreen_emergency_call" msgid="5347633784401285225">"Appel d\'urgence"</string>
+    <string name="lockscreen_return_to_call" msgid="5244259785500040021">"Retour à l\'appel"</string>
+    <string name="lockscreen_pattern_correct" msgid="9039008650362261237">"Combinaison correcte !"</string>
+    <string name="lockscreen_pattern_wrong" msgid="4317955014948108794">"Veuillez réessayer."</string>
+    <string name="lockscreen_password_wrong" msgid="5737815393253165301">"Veuillez réessayer."</string>
+    <string name="faceunlock_multiple_failures" msgid="754137583022792429">"Nombre maximal autorisé de tentatives Face Unlock atteint."</string>
+    <string name="lockscreen_plugged_in" msgid="8057762828355572315">"En charge (<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>)"</string>
+    <string name="lockscreen_charged" msgid="321635745684060624">"Chargé"</string>
+    <string name="lockscreen_battery_short" msgid="4477264849386850266">"<xliff:g id="NUMBER">%d</xliff:g> <xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_low_battery" msgid="1482873981919249740">"Branchez votre chargeur."</string>
+    <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"Aucune carte SIM"</string>
+    <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"Aucune carte SIM n\'est insérée dans la tablette."</string>
+    <string name="lockscreen_missing_sim_message" product="default" msgid="2186920585695169078">"Aucune carte SIM n\'est insérée dans le téléphone."</string>
+    <string name="lockscreen_missing_sim_instructions" msgid="5372787138023272615">"Insérez une carte SIM."</string>
+    <string name="lockscreen_missing_sim_instructions_long" msgid="3526573099019319472">"Carte SIM absente ou illisible. Insérez une carte SIM."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short" msgid="5096149665138916184">"Carte SIM inutilisable"</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions" msgid="910904643433151371">"Votre carte SIM a été définitivement désactivée."\n" Veuillez contacter votre opérateur de téléphonie mobile pour en obtenir une autre."</string>
+    <string name="lockscreen_transport_prev_description" msgid="201594905152746886">"Bouton du titre précédent"</string>
+    <string name="lockscreen_transport_next_description" msgid="6089297650481292363">"Bouton du titre suivant"</string>
+    <string name="lockscreen_transport_pause_description" msgid="7659088786780128001">"Bouton de pause"</string>
+    <string name="lockscreen_transport_play_description" msgid="5888422938351019426">"Bouton de lecture"</string>
+    <string name="lockscreen_transport_stop_description" msgid="4562318378766987601">"Bouton d\'arrêt"</string>
+    <string name="emergency_calls_only" msgid="6733978304386365407">"Appels d\'urgence uniquement"</string>
+    <string name="lockscreen_network_locked_message" msgid="143389224986028501">"Réseau verrouillé"</string>
+    <string name="lockscreen_sim_puk_locked_message" msgid="7441797339976230">"La carte SIM est verrouillée par clé PUK"</string>
+    <string name="lockscreen_sim_puk_locked_instructions" msgid="8127916255245181063">"Veuillez consulter le guide utilisateur ou contacter le service client."</string>
+    <string name="lockscreen_sim_locked_message" msgid="8066660129206001039">"La carte SIM est verrouillée"</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message" msgid="595323214052881264">"Déblocage de la carte SIM..."</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" msgid="6481623830344107222">"Vous avez dessiné un schéma de déverrouillage incorrect à <xliff:g id="NUMBER_0">%d</xliff:g> reprises."\n\n"Veuillez réessayer dans <xliff:g id="NUMBER_1">%d</xliff:g> secondes."</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" msgid="2725973286239344555">"Vous avez saisi un mot de passe incorrect <xliff:g id="NUMBER_0">%d</xliff:g> fois. "\n\n"Veuillez réessayer dans <xliff:g id="NUMBER_1">%d</xliff:g> secondes."</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" msgid="6216672706545696955">"Vous avez saisi un code PIN incorrect <xliff:g id="NUMBER_0">%d</xliff:g> fois. "\n\n"Veuillez réessayer dans <xliff:g id="NUMBER_1">%d</xliff:g> secondes."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet" msgid="9191611984625460820">"Vous avez dessiné un schéma de déverrouillage incorrect à <xliff:g id="NUMBER_0">%d</xliff:g> reprises. Au bout de <xliff:g id="NUMBER_1">%d</xliff:g> échecs supplémentaires, vous devrez déverrouiller votre tablette à l\'aide de votre identifiant Google."\n\n"Veuillez réessayer dans <xliff:g id="NUMBER_2">%d</xliff:g> secondes."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default" msgid="2590227559763762751">"Vous avez dessiné un schéma de déverrouillage incorrect à <xliff:g id="NUMBER_0">%d</xliff:g> reprises. Au bout de <xliff:g id="NUMBER_1">%d</xliff:g> échecs supplémentaires, vous devrez déverrouiller votre téléphone à l\'aide de votre identifiant Google."\n\n"Veuillez réessayer dans <xliff:g id="NUMBER_2">%d</xliff:g> secondes."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet" msgid="6128106399745755604">"Vous avez tenté de déverrouiller la tablette de façon incorrecte à <xliff:g id="NUMBER_0">%d</xliff:g> reprises. Si vous échouez encore <xliff:g id="NUMBER_1">%d</xliff:g> fois, sa configuration d\'usine sera rétablie, et toutes les données utilisateur seront perdues."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default" msgid="8603565142156826565">"Vous avez tenté de déverrouiller le téléphone de façon incorrecte à <xliff:g id="NUMBER_0">%d</xliff:g> reprises. Si vous échouez encore <xliff:g id="NUMBER_1">%d</xliff:g> fois, sa configuration d\'usine sera rétablie, et toutes les données utilisateur seront perdues."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet" msgid="280873516493934365">"Vous avez tenté de déverrouiller la tablette de façon incorrecte à <xliff:g id="NUMBER">%d</xliff:g> reprises. Sa configuration d\'usine va être rétablie."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="default" msgid="3025504721764922246">"Vous avez tenté de déverrouiller le téléphone de façon incorrecte à <xliff:g id="NUMBER">%d</xliff:g> reprises. Sa configuration d\'usine va être rétablie."</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown" msgid="6251480343394389665">"Réessayez dans <xliff:g id="NUMBER">%d</xliff:g> secondes."</string>
+    <string name="lockscreen_forgot_pattern_button_text" msgid="2626999449610695930">"Schéma oublié ?"</string>
+    <string name="lockscreen_glogin_forgot_pattern" msgid="2588521501166032747">"Déverrouillage du compte"</string>
+    <string name="lockscreen_glogin_too_many_attempts" msgid="2751368605287288808">"Trop de tentatives"</string>
+    <string name="lockscreen_glogin_instructions" msgid="3931816256100707784">"Pour déverrouiller le téléphone, veuillez vous connecter avec votre compte Google."</string>
+    <string name="lockscreen_glogin_username_hint" msgid="8846881424106484447">"Nom d\'utilisateur (e-mail)"</string>
+    <string name="lockscreen_glogin_password_hint" msgid="5958028383954738528">"Mot de passe"</string>
+    <string name="lockscreen_glogin_submit_button" msgid="7130893694795786300">"Se connecter"</string>
+    <string name="lockscreen_glogin_invalid_input" msgid="1364051473347485908">"Nom d\'utilisateur ou mot de passe incorrect."</string>
+    <string name="lockscreen_glogin_account_recovery_hint" msgid="1696924763690379073">"Vous avez oublié votre nom d\'utilisateur ou votre mot de passe ?"\n"Accédez à la page "<b>"google.com/accounts/recovery"</b>"."</string>
+    <string name="lockscreen_glogin_checking_password" msgid="7114627351286933867">"Vérification en cours…"</string>
+    <string name="lockscreen_unlock_label" msgid="737440483220667054">"Déverrouiller"</string>
+    <string name="lockscreen_sound_on_label" msgid="9068877576513425970">"Son activé"</string>
+    <string name="lockscreen_sound_off_label" msgid="996822825154319026">"Son désactivé"</string>
+    <string name="lockscreen_access_pattern_start" msgid="3941045502933142847">"Schéma commencé."</string>
+    <string name="lockscreen_access_pattern_cleared" msgid="5583479721001639579">"Schéma effacé."</string>
+    <string name="lockscreen_access_pattern_cell_added" msgid="6756031208359292487">"Cellule ajoutée."</string>
+    <string name="lockscreen_access_pattern_detected" msgid="4988730895554057058">"Schéma terminé."</string>
+  
+</resources>

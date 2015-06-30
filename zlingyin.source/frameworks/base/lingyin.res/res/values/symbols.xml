@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- We don't want to publish private symbols in android.R as part of the
+       SDK.  Instead, put them here. -->
+  <private-symbols package="com.jzs.internal" />
+
+  <!-- Private symbols that we need to reference from framework code.  See
+       frameworks/base/core/res/MakeJavaSymbols.sed for how to easily generate
+       this.
+  -->
+<!-- -->
+<!--
+	<java-symbol type="attr" name="JzsTargetImageView" />
+	<java-symbol type="attr" name="JzsTargetTextView" />
+	-->
+	
+	
+	<java-symbol type="drawable" name="zzzz_qs_float_start_btn" />	
+	<java-symbol type="drawable" name="zzzz_qs_float_cancel_btn" />
+	<java-symbol type="drawable" name="zzzz_qs_float_result_bg" />
+	
+	
+	<java-symbol type="drawable" name="ic_lockscreen_unlock" />
+	<java-symbol type="drawable" name="ic_lockscreen_unlock_phantom" />
+	
+	<java-symbol type="drawable" name="ic_lockscreen_send_sms" />	
+	<java-symbol type="drawable" name="ic_lockscreen_soundon" />
+	<java-symbol type="drawable" name="ic_lockscreen_silent" />
+	<java-symbol type="drawable" name="ic_lockscreen_camera" />
+	
+<!--	<java-symbol type="drawable" name="ic_lockscreen_outerring" />
+	<java-symbol type="drawable" name="ic_lockscreen_chevron_right" />
+	<java-symbol type="drawable" name="ic_lockscreen_unlock" />	
+	
+	
+	<java-symbol type="drawable" name="zzzz_qs_htc_lockscreen_phone_shadow" />	
+	<java-symbol type="drawable" name="zzzz_qs_htc_lockscreen_smsmms_shadow" />
+	<java-symbol type="drawable" name="zzzz_qs_htc_lockscreen_contacts_shadow" />
+	<java-symbol type="drawable" name="zzzz_qs_htc_lockscreen_shadow_cicle" />
+	
+	<java-symbol type="drawable" name="zzzz_qs_ssi9300_lockscreen_phone" />	
+	<java-symbol type="drawable" name="zzzz_qs_ssi9300_lockscreen_smsmms" />	
+	<java-symbol type="drawable" name="zzzz_qs_ssi9300_lockscreen_browser" />	
+	<java-symbol type="drawable" name="zzzz_qs_ssi9300_lockscreen_camera" />
+	<java-symbol type="drawable" name="zzzz_qs_ssi9300_lockscreen_contacts" />
+-->	
+	<!-- iphone lock -->
+<!--	<java-symbol type="drawable" name="zzzz_iphone_lockscreen_txt_anim" />	
+	<java-symbol type="drawable" name="zzzz_iphone_lockscreen_slider_background" />	
+	<java-symbol type="drawable" name="zzzz_iphone_lockscreen_batterybg_1" />	
+	<java-symbol type="drawable" name="zzzz_iphone_lockscreen_batterybg_2" />	
+	<java-symbol type="drawable" name="zzzz_iphone_lockscreen_batterybg_3" />	
+	<java-symbol type="drawable" name="zzzz_iphone_lockscreen_batterybg_4" />	
+	<java-symbol type="drawable" name="zzzz_iphone_lockscreen_battery_charge" />	
+	
+	
+	<java-symbol type="string" name="zzzz_qs_htc_unlock_string" />
+	<java-symbol type="string" name="zzzz_qs_iphone_unlock_string" />
+	
+	-->
+	
+	<java-symbol type="string" name="zzzz_ss_lockscreen_short_cut_guide_text" />
+	<java-symbol type="string" name="zzzz_ss_lockscreen_unlock_guide_text" />
+	<java-symbol type="string" name="network_searching" />
+	<java-symbol type="string" name="lockscreen_permanent_disabled_sim_message_short" />
+	<java-symbol type="string" name="lockscreen_missing_sim_message_short" />
+	<java-symbol type="string" name="lockscreen_sim_locked_message" />
+	<java-symbol type="string" name="lockscreen_sim_puk_locked_message" />
+	<java-symbol type="string" name="lockscreen_network_locked_message" />
+	<java-symbol type="string" name="lockscreen_charged" />
+	<java-symbol type="string" name="lockscreen_plugged_in" />
+	<java-symbol type="string" name="lockscreen_low_battery" />
+	
+<!--	<java-symbol type="string" name="abbrev_wday_month_day_year" />  -->
+	<!--
+	<java-symbol type="layout" name="zzzz_qs_keyguard_screen_unlock_ss_circle_gemini" />
+	<java-symbol type="layout" name="zzzz_qs_keyguard_screen_unlock_htc" />
+	<java-symbol type="layout" name="zzzz_qs_keyguard_screen_unlock_iphone" />
+	-->
+	<java-symbol type="layout" name="aa_keyguard_host_view" />
+	<java-symbol type="layout" name="aa_keyguard_screen_tab_unlock_default" />
+	<java-symbol type="layout" name="zz_phone_cover_clock" />
+<!--	<java-symbol type="layout" name="circle_shortcut_container" />
+	-->
+	
+	<java-symbol type="id" name="aa_touch_lock_ctrl" />
+<!--	<java-symbol type="id" name="keyguard_selector_view" /> -->
+	<java-symbol type="id" name="aa_keyguard_host_view" />
+	<java-symbol type="id" name="aa_keyguard_message_area" />
+	<java-symbol type="id" name="date" />
+	<java-symbol type="id" name="clock_view" />
+	<java-symbol type="id" name="clock_text" />
+	<java-symbol type="id" name="alarm_status" />
+	<java-symbol type="id" name="status1" />
+<!--	<java-symbol type="id" name="timeDisplayForeground" />
+	<java-symbol type="id" name="timeDisplayBackground" />
+-->	
+	<java-symbol type="id" name="am_pm" />
+	<java-symbol type="id" name="emergencyCallButton" />
+	<java-symbol type="id" name="unlock_widget" />
+	
+<!--	<java-symbol type="integer" name="PluginFor_Unkown" />		-->
+
+	<java-symbol type="array" name="lockscreen_targets_with_camera" />
+  <java-symbol type="array" name="lockscreen_targets_when_silent" />
+  <java-symbol type="array" name="lockscreen_targets_when_soundon" />
+  
+  <java-symbol type="attr" name="targetDrawables" />
+	<java-symbol type="attr" name="targetDescriptions" />
+	<java-symbol type="attr" name="directionDescriptions" />
+	<java-symbol type="attr" name="handleDrawable" />
+	<java-symbol type="attr" name="waveDrawable" />
+	<java-symbol type="attr" name="outerRadius" />
+	<java-symbol type="attr" name="snapMargin" />
+	<java-symbol type="attr" name="chevronDrawables" />
+	<java-symbol type="attr" name="feedbackCount" />
+	<java-symbol type="attr" name="vibrationDuration" />
+	<java-symbol type="attr" name="alwaysTrackFinger" />
+	
+	<java-symbol type="xml" name="default_icons" />
+	<java-symbol type="xml" name="default_plugins" />
+	
+	
+</resources>

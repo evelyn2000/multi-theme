@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!--	<string name="ota_address_check_version" translatable="false">http://192.168.1.254/ota/fota/checkversion.php</string>
+    <string name="ota_address_download" translatable="false">http://192.168.1.254/ota/fota/download/download.php</string>
+-->	
+    <string name="ota_address_check_version" translatable="false">http://ota.qishangtel.com:7600/ota/fota/checkversion.php</string>
+    <string name="ota_address_download" translatable="false">http://ota.qishangtel.com:7600/ota/fota/download/download.php</string>
+   
+    <!-- Timeout in milliseconds  -->
+    <integer name="ota_check_version_timeout" translatable="false">30000</integer>
+    
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+    <!-- Orientation of a widget. -->
+    <attr name="direction">
+        <!-- Vertical widget. -->
+        <enum name="vertical" value="0" />
+        <!-- Horizontal widget. -->
+        <enum name="horizontal" value="1" />
+    </attr>
+    
+    <attr name="maxScreenCount" format="integer"  />
+    <attr name="minScreenCount" format="integer"  />
+    <attr name="ChildViewLayout" format="reference" />
+
+    <skip />
+
+    <declare-styleable name="BookmarkView">
+		<attr name="imageDispWidth" format="dimension"></attr>
+		<attr name="imageDispHeight" format="dimension"></attr>
+		<attr name="spaceBetweenItems" format="dimension"></attr>
+		<attr name="dotGap" format="dimension"></attr>
+		<attr name="spaceDispHorSize" format="dimension"></attr>
+		<attr name="spaceDispVerSize" format="dimension"></attr>
+		<attr name="imageReflection" format="float"></attr>
+		<attr name="maxZoomOut" format="float"></attr>
+        <attr name="titleColor" format="color"></attr>
+		<attr name="infoColor" format="color"></attr>
+	</declare-styleable>
+	
+    <declare-styleable name="PageViewIndicator">
+        <attr name="direction" />
+        <attr name="curScreenImage" format="reference" />
+        <attr name="defaultScreenImage" format="reference" />
+        <attr name="moreScreenImage" format="reference" />
+        <attr name="imagePadding" format="dimension" />
+        <attr name="isCreateNumber" format="boolean" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="curIconWidth" format="dimension" />
+        <attr name="curIconHeight" format="dimension" />
+        <attr name="defIconWidth" format="dimension" />
+        <attr name="defIconHeight" format="dimension" />
+        
+    </declare-styleable>
+    
+    <declare-styleable name="PageViewContainer">
+        <attr name="direction" />
+        <!-- The first screen the workspace should display. -->
+        <attr name="defaultScreen" format="integer"  />
+<!--         <attr name="maxScreenCount" /> -->
+<!--         <attr name="minScreenCount" /> -->
+<!--         <attr name="defaultScreenCount" format="integer"  /> -->
+        
+        <attr name="ChildViewLayout" />
+    </declare-styleable>
+    
+    <declare-styleable name="PageView">
+        <attr name="direction" />
+        <attr name="CellCount" format="integer"  />
+        <attr name="RowCount" format="integer"  />
+        <attr name="ChildViewLayout" />
+    </declare-styleable>
+    
+    <declare-styleable name="PreviewImageView">
+        <attr name="checkedicon" format="reference"  />
+        <attr name="icongravity" format="integer"  />
+    </declare-styleable>
+</resources>

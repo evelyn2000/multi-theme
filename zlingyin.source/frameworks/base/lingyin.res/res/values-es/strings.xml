@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+  
+  <string name="network_searching">Buscando red</string>
+  <string name="folder_name_common">Carpeta</string>
+  <string name="folder_name_media">Medios</string>
+  <string name="folder_name_social">Sociales</string>
+  <string name="folder_name_game">Juego</string>
+  <string name="folder_name_tool">Herramientas</string>
+  
+  <string name="aa_shortcut_icon_str_settings">Ajustes</string>
+  <string name="aa_shortcut_icon_str_back">Regresar</string>
+  <string name="aa_shortcut_icon_str_home">Inicio</string>
+  <string name="aa_shortcut_icon_str_customapps">Custom Apls</string>
+  <string name="aa_shortcut_icon_str_screenshot">Captura de \npantalla</string>
+  <string name="aa_shortcut_icon_str_lockscreen">Bloquear \npantalla</string>
+  
+  <string name="z_app_icon_style_name_default">Por defecto</string>
+	<string name="z_app_icon_style_name_style1">Estilo 1</string>
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+	<string name="theme_plugin_permission" translatable="false">com.jzs.permission.THEME_PLUGIN_PERMISSION</string>
+	<string name="theme_support_plugin_permission" translatable="false">com.jzs.permission.SUPPORT_THEME_PLUGIN_PERMISSION</string>
+	
+	<string name="theme_plugin_description" translatable="false">jzs.theme.plugin</string>
+	<string name="theme_support_plugin_description" translatable="false">jzs.support.theme.plugin</string>
+	
+	<string name="PluginFor_Unkown" translatable="false">""</string>
+	<string name="PluginFor_Lockscreen" translatable="false">"lockscreen"</string>
+	<string name="PluginFor_Lockscreen_Skin" translatable="false">"lockscreen.skin"</string>
+	<string name="PluginFor_SystemThemeStyle" translatable="false">"systemthemestyle"</string>
+	<string name="PluginFor_SystemThemeStyle_Skin" translatable="false">"systemthemestyle.skin"</string>
+	
+	
+	<string name="android_system_label">lingyin.res</string>
+	<string name="lockscreen_default_label">Default</string>
+	<string name="lockscreen_plugin_label">Lockscreen Styles</string>
+	<string name="system_theme_styles_label">System Themes</string>
+
+  <string name="storage_withoutsd">storage_withoutsd public.</string>
+  <string name="storage_sd">storage_sd private</string>   
+  
+  <string name="kg_emergency_call_label">Emergency call</string>
+  
+  <!-- Description of the up direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_direction_up">Slide up for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+  <!-- Description of the down direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_direction_down">Slide down for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+  <!-- Description of the left direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_direction_left">"Slide left for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+  <!-- Description of the right direction in which one can to slide the handle in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_direction_right">Slide right for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+
+  <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_target_unlock">Unlock</string>
+  <!-- Description of the camera target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_target_camera">Camera</string>
+  <!-- Description of the silent target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_target_silent">Silent</string>
+  <!-- Description of the sound on target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_target_soundon">Sound on</string>
+  <!-- Description of the unlock target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+  <string name="description_target_search">Search</string>
+  <string name="description_target_sms">Mms</string>
+  
+  <string name="network_searching">Searching for new network</string>
+  
+  
+  <string name="folder_name_common">Folder</string>
+  <string name="folder_name_media">Media</string>
+  <string name="folder_name_social">Social</string>
+  <string name="folder_name_game">Game</string>
+  <string name="folder_name_tool">Tool</string>
+  
+  <string name="aa_shortcut_icon_str_settings">Settings</string>
+  <string name="aa_shortcut_icon_str_back">Back</string>
+  <string name="aa_shortcut_icon_str_home">Home</string>
+  <string name="aa_shortcut_icon_str_customapps">Custom Apps</string>
+  <string name="aa_shortcut_icon_str_screenshot">Screenshot</string>
+  <string name="aa_shortcut_icon_str_lockscreen">Lock screen</string>
+  
+  <string name="z_app_icon_style_name_default">Default</string>
+	<string name="z_app_icon_style_name_style1">Style1</string>
+
+    <!--
+       *** touch based lock / unlock ***
+                                          --> <skip />
+
+    <!-- On the keyguard screen, it shows the carrier the phone is connected to.  This is displayed if the phone is not connected to a carrier.-->
+    <string name="lockscreen_carrier_default">No service</string>
+
+    <!-- Shown in the lock screen to tell the user that the screen is locked. -->
+    <string name="lockscreen_screen_locked">Screen locked.</string>
+
+    <!-- when pattern lock is enabled, tell them about the emergency dial -->
+    <string name="lockscreen_instructions_when_pattern_enabled">Press Menu to unlock or place emergency call.</string>
+
+    <!-- On the keyguard screen, when pattern lock is disabled, only tell them to press menu to unlock.  This is shown in small font at the bottom. -->
+    <string name="lockscreen_instructions_when_pattern_disabled">Press Menu to unlock.</string>
+
+    <!-- On the unlock pattern screen, shown at the top of the unlock screen to tell the user what to do. Below this text is the place for theu ser to draw the pattern. -->
+    <string name="lockscreen_pattern_instructions">Draw pattern to unlock</string>
+    <!-- Button at the bottom of the unlock screen to make an emergency call. -->
+    <string name="lockscreen_emergency_call">Emergency call</string>
+    <!-- Button at the bottom of the unlock screen that lets the user return to a call -->
+    <string name="lockscreen_return_to_call">Return to call</string>
+    <!-- Shown to confirm that the user entered their lock pattern correctly. -->
+    <string name="lockscreen_pattern_correct">Correct!</string>
+    <!-- On the unlock pattern screen, shown when the user enters the wrong lock pattern and must try again. -->
+    <string name="lockscreen_pattern_wrong">Try again</string>
+    <!-- On the unlock password screen, shown when the user enters the wrong lock password and must try again. -->
+    <string name="lockscreen_password_wrong">Try again</string>
+    <!-- Shown when face unlock failed multiple times so we're just using the backup -->
+    <string name="faceunlock_multiple_failures">Maximum Face Unlock attempts exceeded</string>
+
+    <!-- When the lock screen is showing and the phone plugged in, and the battery
+         is not fully charged, show the current charge %.  -->
+    <string name="lockscreen_plugged_in">Charging, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <!-- When the lock screen is showing, the phone is plugged in and the battery is fully
+         charged, say that it is charged. -->
+    <string name="lockscreen_charged">Charged</string>
+    <!-- A short representation of charging information, e.g "34%" -->
+    <string name="lockscreen_battery_short"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- When the lock screen is showing and the battery is low, warn user to plug
+         in the phone soon. -->
+    <string name="lockscreen_low_battery">Connect your charger.</string>
+
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message_short">No SIM card</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="tablet">No SIM card in tablet.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="default">No SIM card in phone.</string>
+    <!-- Shown in the lock screen to ask the user to insert a SIM card. -->
+    <string name="lockscreen_missing_sim_instructions">Insert a SIM card.</string>
+    <!-- Shown in the lock screen to ask the user to insert a SIM card when sim is missing or not readable. -->
+    <string name="lockscreen_missing_sim_instructions_long">The SIM card is missing or not readable. Insert a SIM card.</string>
+    <!-- Shown in the lock screen when SIM card is permanently disabled. -->
+    <string name="lockscreen_permanent_disabled_sim_message_short">Unusable SIM card</string>
+    <!-- Shown in the lock screen to inform the user to SIM card is permanently disabled. -->
+    <string name="lockscreen_permanent_disabled_sim_instructions">Your SIM card has been permanently disabled.\n
+    Contact your wireless service provider for another SIM card.</string>
+
+    <!-- Shown on transport control of lockscreen. Pressing button goes to previous track. -->
+    <string name="lockscreen_transport_prev_description">Previous track button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button goes to next track. -->
+    <string name="lockscreen_transport_next_description">Next track button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button pauses playback -->
+    <string name="lockscreen_transport_pause_description">Pause button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button pauses playback -->
+    <string name="lockscreen_transport_play_description">Play button</string>
+    <!-- Shown on transport control of lockscreen. Pressing button pauses playback -->
+    <string name="lockscreen_transport_stop_description">Stop button</string>
+
+    <!-- Shown in the lock screen when there is emergency calls only mode. -->
+    <string name="emergency_calls_only" msgid="2485604591272668370">Emergency calls only</string>
+
+    <!-- When the user inserts a sim card from an unsupported network, it becomes network
+         locked -->
+    <string name="lockscreen_network_locked_message">Network locked</string>
+
+
+    <!-- When the user enters a wrong sim pin too many times, it becomes
+         PUK locked (Pin Unlock Kode) -->
+    <string name="lockscreen_sim_puk_locked_message">SIM card is PUK-locked</string>
+    <!-- Shown in the lock screen when the SIM has become PUK locked and the user must call customer care to unlock it. -->
+    <string name="lockscreen_sim_puk_locked_instructions">See the User Guide or contact Customer Care.</string>
+
+    <!-- Shown in the lock screen to tell the user that their SIM is locked and they must unlock it. -->
+    <string name="lockscreen_sim_locked_message">SIM card is locked</string>
+
+    <!-- For the unlock screen, When the user enters a sim unlock code, it takes a little while to check
+         whether it is valid, and to unlock the sim if it is valid.  we display a
+         progress dialog in the meantime.  this is the emssage. -->
+    <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card\u2026</string>
+
+    <!-- For the unlock screen, Information message shown in dialog when user has too many failed attempts at
+         drawing the unlock pattern -->
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">
+        You have incorrectly drawn your unlock pattern <xliff:g id="number">%d</xliff:g> times.
+        \n\nTry again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+
+    <!-- For the unlock screen, Information message shown in dialog when user has too many failed attempts at
+         entering the password -->
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">
+        You have incorrectly typed your password <xliff:g id="number">%d</xliff:g> times.
+        \n\nTry again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+
+    <!-- For the unlock screen, Information message shown in dialog when user has too many failed attempts at
+         entering the PIN -->
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">
+        You have incorrectly typed your PIN <xliff:g id="number">%d</xliff:g> times.
+        \n\nTry again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
+        You have incorrectly drawn your unlock pattern <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       you will be asked to unlock your tablet using your Google signin.\n\n
+       Try again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">
+        You have incorrectly drawn your unlock pattern <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       you will be asked to unlock your phone using your Google signin.\n\n
+       Try again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">
+       You have incorrectly attempted to unlock the tablet <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       the tablet will be reset to factory default and all user data will be lost.
+    </string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">
+       You have incorrectly attempted to unlock the phone <xliff:g id="number">%d</xliff:g> times.
+       After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+       the phone will be reset to factory default and all user data will be lost.
+    </string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">
+       You have incorrectly attempted to unlock the tablet <xliff:g id="number">%d</xliff:g> times.
+       The tablet will now be reset to factory default.
+    </string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="default">
+       You have incorrectly attempted to unlock the phone <xliff:g id="number">%d</xliff:g> times.
+       The phone will now be reset to factory default.
+    </string>
+
+    <!-- On the unlock screen, countdown message shown while user is waiting to try again after too many
+         failed attempts -->
+    <string name="lockscreen_too_many_failed_attempts_countdown">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+
+    <!-- On the unlock screen, message shown on button that appears once it's apparent the user may have forgotten
+         their lock gesture -->
+    <string name="lockscreen_forgot_pattern_button_text">Forgot pattern?</string>
+
+    <!-- Title of the unlock screen that uses your Google login and password when the user hit
+         the 'forgot pattern' button.-->
+    <string name="lockscreen_glogin_forgot_pattern">Account unlock</string>
+    <!-- Title of the unlock screen that uses your Google login and password when the user attempted
+         too many patterns and we are forcing them to use their account instead. -->
+    <string name="lockscreen_glogin_too_many_attempts">Too many pattern attempts</string>
+    <!-- In the unlock screen, message telling the user that they need to use their Google login and password to unlock the phone -->
+    <string name="lockscreen_glogin_instructions">To unlock, sign in with your Google account.</string>
+    <!-- Hint caption for the username field when unlocking the phone using login and password -->
+    <string name="lockscreen_glogin_username_hint">Username (email)</string>
+    <!-- Hint caption for the password field when unlocking the phone using login and password -->
+    <string name="lockscreen_glogin_password_hint">Password</string>
+    <!-- Button to try to unlock the phone using username and password -->
+    <string name="lockscreen_glogin_submit_button">Sign in</string>
+    <!-- Displayed to the user when unlocking the phone with a username and password fails. -->
+    <string name="lockscreen_glogin_invalid_input">Invalid username or password.</string>
+    <!-- Hint displayed on account unlock screen to advise the user on how to recover the account. -->
+    <string name="lockscreen_glogin_account_recovery_hint">Forgot your username or password\?\nVisit <b>google.com/accounts/recovery</b>.</string>
+
+    <!-- Displayed in a progress dialog while a username and password are being checked. -->
+    <string name="lockscreen_glogin_checking_password">Checking\u2026</string>
+    <!-- Displayed on lock screen's left tab - unlock -->
+    <string name="lockscreen_unlock_label">Unlock</string>
+    <!-- Displayed on lock screen's right tab - turn sound on -->
+    <string name="lockscreen_sound_on_label">Sound on</string>
+    <!-- Displayed on lock screen's right tab - turn sound off -->
+    <string name="lockscreen_sound_off_label">Sound off</string>
+
+    <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    
+</resources>

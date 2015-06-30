@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- This is the general lock screen which shows information about the
+  state of the device, as well as instructions on how to get past it
+  depending on the state of the device.  It is the same for landscape
+  and portrait.-->
+<com.jzs.internal.widget.QsSlidingCtrlDefault 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:lyres="http://schemas.android.com/apk/res/com.jzs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aa_touch_lock_ctrl"
+    android:paddingTop="35dp"
+    >
+    
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <com.jzs.internal.widget.ClockView
+			android:tag="ctrl_clock_view" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center_horizontal"
+			>
+
+			<TextView android:id="@+id/clock_text" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:singleLine="true"
+				android:ellipsize="none" android:textSize="60.0sp"
+				android:textStyle="bold" android:textColor="#ffffffff"
+				android:drawablePadding="2dip" />
+
+			<TextView android:id="@+id/am_pm" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_toRightOf="@id/clock_text"
+				android:layout_alignBottom="@id/clock_text" android:singleLine="true"
+				android:ellipsize="none" android:textSize="20sp" android:textStyle="bold"
+				android:layout_marginLeft="8dip" android:layout_marginBottom="18dip" />
+		</com.jzs.internal.widget.ClockView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/keyguard_lockscreen_status_line_font_right_margin">
+
+        <TextView
+            android:tag="ctrl_date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/keyguard_lockscreen_status_line_font_size"
+            android:textColor="#ffffffff"
+            />
+
+        <TextView
+            android:tag="ctrl_alarm_status_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/keyguard_lockscreen_status_line_font_size"
+            android:drawablePadding="4dip"
+            android:textColor="#ffffffff"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status1"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/keyguard_lockscreen_status_line_font_right_margin"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/keyguard_lockscreen_status_line_font_size"
+        android:drawablePadding="4dip"
+        />
+        
+                
+    <Space android:layout_gravity="fill" />
+
+    <!-- emergency call button shown when sim is PUKd and tab_selector is hidden -->
+    <Button
+        android:id="@+id/emergencyCallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dip"
+        android:layout_marginRight="16dip"
+        android:layout_gravity="right"
+        android:drawableLeft="@drawable/zz_lockscreen_emergency_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:drawablePadding="4dip"
+        android:text="@*android:string/lockscreen_emergency_call"
+        android:visibility="gone"
+        android:background="@com.jzs:drawable/ic_emergency_button_bg"
+        android:textColor="#ffffffff"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="302dip">
+<!--
+        <TextView
+        android:id="@+id/calibrationData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="4dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginLeft="12dip"
+        android:singleLine="false"
+        android:ellipsize="marquee"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/keyguard_lockscreen_status_line_font_size"
+        android:textColor="?android:attr/textColorSecondary"
+        />  
+-->        
+        <com.jzs.internal.widget.multiwaveview.MultiWaveView
+            android:id="@+id/unlock_widget"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            lyres:targetDrawables="@array/lockscreen_targets_with_camera"
+            lyres:targetDescriptions="@array/lockscreen_target_descriptions_with_camera"
+            lyres:directionDescriptions="@array/lockscreen_direction_descriptions"
+            lyres:handleDrawable="@drawable/ic_lockscreen_handle"
+            lyres:waveDrawable="@drawable/ic_lockscreen_outerring"
+            lyres:outerRadius="@dimen/multiwaveview_target_placement_radius"
+            lyres:snapMargin="@dimen/multiwaveview_snap_margin"
+            lyres:chevronDrawables="@array/lockscreen_chevron_icons"
+            lyres:feedbackCount="3"
+            lyres:vibrationDuration="20"
+            />
+<!--             android:hitRadius="@dimen/multiwaveview_hit_radius"
+android:horizontalOffset="0dip"
+            android:verticalOffset="60dip" 
+        <TextView
+            android:id="@+id/carrier"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dip"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/keyguard_lockscreen_status_line_font_size"
+            android:textColor="?android:attr/textColorSecondary"
+            />
+            -->
+        <include layout="@layout/keyguard_carrier_view_gemini"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_alignParentBottom="true"
+            	android:layout_marginBottom="12dip"
+            	android:gravity="center_horizontal" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        style="?android:attr/buttonBarStyle"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button android:id="@+id/emergencyCallButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textSize="@dimen/keyguard_lockscreen_status_line_font_size"
+            android:text="@*android:string/lockscreen_emergency_call"
+            android:drawableLeft="@drawable/zz_lockscreen_emergency_button"
+            android:drawablePadding="0dip"
+            android:visibility="gone"
+            android:background="@com.jzs:drawable/ic_emergency_button_bg"
+        		android:textColor="#ffffffff"
+        />
+
+    </LinearLayout>
+
+    <!-- Music transport control -->
+<!--    <include android:id="@+id/transport"
+        layout="@layout/keyguard_transport_control"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_rowSpan="4"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        />
+-->
+</GridLayout>
+
+</com.jzs.internal.widget.QsSlidingCtrlDefault>

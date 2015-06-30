@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customctrl="http://schemas.android.com/apk/res/com.jzs.android.systemstyle"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	
+<LinearLayout android:id="@+id/listcontainer" 
+	android:orientation="vertical" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:background="@drawable/listview_bg">
+	
+	<include layout="@layout/tabwidgetbar"/>
+    	
+    <com.jzs.android.systemstyle.controls.PageViewContainer
+		android:id="@+id/pageviewcontainer" 
+		android:layout_height="0dp"
+		android:layout_weight="1" 
+		android:layout_width="match_parent">
+		<include layout="@layout/page_localstyle_layout" />
+		<include layout="@layout/page_onlinestyle_layout" />
+	</com.jzs.android.systemstyle.controls.PageViewContainer>
+
+</LinearLayout>
+
+<LinearLayout android:id="@+id/detailContainer"
+	android:orientation="vertical" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:visibility="gone"
+	android:background="@android:color/black">
+
+	<com.jzs.android.systemstyle.controls.BookmarkView
+		android:tag="bookmark" 
+		android:layout_height="0dp"
+		android:layout_weight="1" 
+		android:layout_width="match_parent"
+		customctrl:spaceDispHorSize="50dp"
+		customctrl:spaceDispVerSize="60dp">
+	</com.jzs.android.systemstyle.controls.BookmarkView>
+	
+	<Button android:tag="apply_item" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+		android:text="@string/str_apply" >
+	</Button>
+
+</LinearLayout>
+
+</FrameLayout>

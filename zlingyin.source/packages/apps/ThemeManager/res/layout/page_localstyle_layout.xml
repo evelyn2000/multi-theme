@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jzs.android.systemstyle.controls.PageViewLocalStyle 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:customctrl="http://schemas.android.com/apk/res/com.jzs.android.systemstyle"
+    android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	
+	<GridView android:tag="gridviewlocal"
+	    android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:numColumns="2"		
+		android:padding="3dp"
+	    android:verticalSpacing="10dp"
+	    android:horizontalSpacing="6dp"
+	    android:stretchMode="columnWidth"
+		/>
+	
+	<include layout="@layout/gridview_emptyview"
+	    android:tag="localemptyview"
+	    android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:visibility="gone"/>
+
+</com.jzs.android.systemstyle.controls.PageViewLocalStyle >
+

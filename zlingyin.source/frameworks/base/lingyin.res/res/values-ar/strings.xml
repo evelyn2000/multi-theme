@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <string name="lockscreen_carrier_default" msgid="8963839242565653192">"لا تتوفر خدمة"</string>
+    <string name="lockscreen_screen_locked" msgid="7288443074806832904">"الشاشة مؤمّنة."</string>
+    <string name="lockscreen_instructions_when_pattern_enabled" msgid="46154051614126049">"اضغط على \"القائمة\" لإلغاء التأمين أو إجراء اتصال بالطوارئ."</string>
+    <string name="lockscreen_instructions_when_pattern_disabled" msgid="686260028797158364">"اضغط على \"القائمة\" لإلغاء التأمين."</string>
+    <string name="lockscreen_pattern_instructions" msgid="7478703254964810302">"رسم نقش لإلغاء التأمين"</string>
+    <string name="lockscreen_emergency_call" msgid="5347633784401285225">"الاتصال بالطوارئ"</string>
+    <string name="lockscreen_return_to_call" msgid="5244259785500040021">"العودة إلى الاتصال"</string>
+    <string name="lockscreen_pattern_correct" msgid="9039008650362261237">"صحيح!"</string>
+    <string name="lockscreen_pattern_wrong" msgid="4317955014948108794">"أعد المحاولة"</string>
+    <string name="lockscreen_password_wrong" msgid="5737815393253165301">"أعد المحاولة"</string>
+    <string name="faceunlock_multiple_failures" msgid="754137583022792429">"تم تجاوز الحد الأقصى لعدد محاولات تأمين الجهاز بالوجه"</string>
+    <string name="lockscreen_plugged_in" msgid="8057762828355572315">"جارٍ الشحن، <xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_charged" msgid="321635745684060624">"تم الشحن"</string>
+    <string name="lockscreen_battery_short" msgid="4477264849386850266">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_low_battery" msgid="1482873981919249740">"توصيل جهاز الشحن."</string>
+    <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"ليست هناك بطاقة SIM"</string>
+    <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"ليس هناك بطاقة SIM في الجهاز اللوحي."</string>
+    <string name="lockscreen_missing_sim_message" product="default" msgid="2186920585695169078">"ليس هناك بطاقة SIM في الهاتف."</string>
+    <string name="lockscreen_missing_sim_instructions" msgid="5372787138023272615">"أدخل بطاقة SIM."</string>
+    <string name="lockscreen_missing_sim_instructions_long" msgid="3526573099019319472">"بطاقة SIM مفقودة أو غير قابلة للقراءة. أدخل بطاقة SIM."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short" msgid="5096149665138916184">"بطاقة SIM غير قابلة للاستخدام"</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions" msgid="910904643433151371">"تم تعطيل بطاقة SIM بشكل دائم."\n" اتصل بمقدم خدمة اللاسلكي للحصول على بطاقة SIM أخرى."</string>
+    <string name="lockscreen_transport_prev_description" msgid="201594905152746886">"زر المقطع الصوتي السابق"</string>
+    <string name="lockscreen_transport_next_description" msgid="6089297650481292363">"زر المقطع الصوتي التالي"</string>
+    <string name="lockscreen_transport_pause_description" msgid="7659088786780128001">"زر الإيقاف المؤقت"</string>
+    <string name="lockscreen_transport_play_description" msgid="5888422938351019426">"زر التشغيل"</string>
+    <string name="lockscreen_transport_stop_description" msgid="4562318378766987601">"زر الإيقاف"</string>
+    <string name="emergency_calls_only" msgid="6733978304386365407">"مكالمات الطوارئ فقط"</string>
+    <string name="lockscreen_network_locked_message" msgid="143389224986028501">"الشبكة مؤمّنة"</string>
+    <string name="lockscreen_sim_puk_locked_message" msgid="7441797339976230">"بطاقة SIM مؤمّنة بكود PUK"</string>
+    <string name="lockscreen_sim_puk_locked_instructions" msgid="8127916255245181063">"راجع دليل المستخدم أو اتصل بخدمة العملاء."</string>
+    <string name="lockscreen_sim_locked_message" msgid="8066660129206001039">"بطاقة SIM مؤمّنة"</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message" msgid="595323214052881264">"جارٍ إلغاء تأمين بطاقة SIM…"</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" msgid="6481623830344107222">"لقد رسمت نقش إلغاء التأمين بطريقة غير صحيحة <xliff:g id="NUMBER_0">%d</xliff:g> مرة."\n\n"الرجاء إعادة المحاولة خلال <xliff:g id="NUMBER_1">%d</xliff:g> ثانية."</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" msgid="2725973286239344555">"لقد كتبت كلمة المرور <xliff:g id="NUMBER_0">%d</xliff:g> مرة بشكل غير صحيح. "\n\n"أعد المحاولة خلال <xliff:g id="NUMBER_1">%d</xliff:g> ثانية."</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" msgid="6216672706545696955">"لقد كتبت رقم التعريف الشخصي <xliff:g id="NUMBER_0">%d</xliff:g> مرة بشكل غير صحيح. "\n\n"أعد المحاولة خلال <xliff:g id="NUMBER_1">%d</xliff:g> ثانية."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet" msgid="9191611984625460820">"لقد رسمت نقش إلغاء التأمين بشكل غير صحيح <xliff:g id="NUMBER_0">%d</xliff:g> مرة. بعد <xliff:g id="NUMBER_1">%d</xliff:g> من المحاولات غير الناجحة الأخرى، ستُطالب بإلغاء تأمين الجهاز اللوحي باستخدام معلومات تسجيل الدخول إلى Google."\n\n" أعد المحاولة خلال <xliff:g id="NUMBER_2">%d</xliff:g> ثانية."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default" msgid="2590227559763762751">"لقد رسمت نقش إلغاء التأمين بشكل غير صحيح <xliff:g id="NUMBER_0">%d</xliff:g> مرة. بعد <xliff:g id="NUMBER_1">%d</xliff:g> من المحاولات غير الناجحة الأخرى، ستُطالب بإلغاء تأمين الهاتف باستخدام معلومات تسجيل الدخول إلى Google."\n\n" أعد المحاولة خلال <xliff:g id="NUMBER_2">%d</xliff:g> ثانية."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet" msgid="6128106399745755604">"لقد حاولت إلغاء تأمين الجهاز اللوحي <xliff:g id="NUMBER_0">%d</xliff:g> من المرات. بعد <xliff:g id="NUMBER_1">%d</xliff:g> من المحاولات غير الناجحة، ستتم إعادة تعيين الجهاز اللوحي إلى الإعدادات الافتراضية للمصنع وسيتم فقد جميع بيانات المستخدم."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default" msgid="8603565142156826565">"لقد حاولت إلغاء تأمين الهاتف <xliff:g id="NUMBER_0">%d</xliff:g> من المرات. بعد <xliff:g id="NUMBER_1">%d</xliff:g> من المحاولات غير الناجحة، ستتم إعادة تعيين الهاتف إلى الإعدادات الافتراضية للمصنع وسيتم فقد جميع بيانات المستخدم."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet" msgid="280873516493934365">"لقد حاولت إلغاء تأمين الجهاز اللوحي <xliff:g id="NUMBER">%d</xliff:g> من المرات بشكل غير صحيح. سيتم الآن إعادة تعيين الجهاز اللوحي إلى الإعدادات الافتراضية للمصنع."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="default" msgid="3025504721764922246">"لقد حاولت إلغاء تأمين الهاتف <xliff:g id="NUMBER">%d</xliff:g> من المرات بشكل غير صحيح. سيتم الآن إعادة تعيين الهاتف إلى الإعدادات الافتراضية للمصنع."</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown" msgid="6251480343394389665">"حاول مرة أخرى خلال <xliff:g id="NUMBER">%d</xliff:g> ثانية."</string>
+    <string name="lockscreen_forgot_pattern_button_text" msgid="2626999449610695930">"هل نسيت النمط؟"</string>
+    <string name="lockscreen_glogin_forgot_pattern" msgid="2588521501166032747">"إلغاء تأمين الحساب"</string>
+    <string name="lockscreen_glogin_too_many_attempts" msgid="2751368605287288808">"محاولات النقش كثيرة جدًا"</string>
+    <string name="lockscreen_glogin_instructions" msgid="3931816256100707784">"لإلغاء التأمين، سجّل الدخول بحسابك في Google."</string>
+    <string name="lockscreen_glogin_username_hint" msgid="8846881424106484447">"اسم المستخدم (البريد إلكتروني)"</string>
+    <string name="lockscreen_glogin_password_hint" msgid="5958028383954738528">"كلمة المرور"</string>
+    <string name="lockscreen_glogin_submit_button" msgid="7130893694795786300">"تسجيل الدخول"</string>
+    <string name="lockscreen_glogin_invalid_input" msgid="1364051473347485908">"اسم المستخدم غير صحيح أو كلمة المرور غير صحيحة."</string>
+    <string name="lockscreen_glogin_account_recovery_hint" msgid="1696924763690379073">"هل نسيت اسم المستخدم أو كلمة المرور؟"\n"انتقل إلى "<b>"google.com/accounts/recovery"</b></string>
+    <string name="lockscreen_glogin_checking_password" msgid="7114627351286933867">"جارٍ التحقق..."</string>
+    <string name="lockscreen_unlock_label" msgid="737440483220667054">"إلغاء تأمين"</string>
+    <string name="lockscreen_sound_on_label" msgid="9068877576513425970">"تشغيل الصوت"</string>
+    <string name="lockscreen_sound_off_label" msgid="996822825154319026">"الصوت متوقف"</string>
+    <string name="lockscreen_access_pattern_start" msgid="3941045502933142847">"بدأ النمط"</string>
+    <string name="lockscreen_access_pattern_cleared" msgid="5583479721001639579">"تم محو النمط"</string>
+    <string name="lockscreen_access_pattern_cell_added" msgid="6756031208359292487">"تمت إضافة الخلية"</string>
+    <string name="lockscreen_access_pattern_detected" msgid="4988730895554057058">"اكتمل النمط"</string>
+    
+</resources>

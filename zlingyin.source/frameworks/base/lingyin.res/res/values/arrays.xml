@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Do not translate. These are all of the drawable resources that should be preloaded by
+         the zygote process before it starts forking application processes. -->
+   
+
+    <!-- Resources for MultiWaveView in LockScreen -->
+    <array name="lockscreen_targets_when_silent">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_soundon</item>
+        <item>@null</item>
+    </array>
+
+    <array name="lockscreen_target_descriptions_when_silent">
+        <item>@string/description_target_unlock</item>
+        <item>@null</item>
+        <item>@string/description_target_soundon</item>
+        <item>@null</item>
+    </array>
+
+    <array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+
+    <array name="lockscreen_targets_when_soundon">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_silent</item>
+        <item>@null</item>
+    </array>
+
+    <array name="lockscreen_target_descriptions_when_soundon">
+        <item>@string/description_target_unlock</item>
+        <item>@null</item>
+        <item>@string/description_target_silent</item>
+        <item>@null</item>
+    </array>
+
+    <array name="lockscreen_targets_with_camera">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_lockscreen_send_sms</item>
+        <item>@drawable/ic_lockscreen_camera</item>
+        <item>@null</item>
+    </array>
+
+    <array name="lockscreen_target_descriptions_with_camera">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_sms</item>
+        <item>@string/description_target_camera</item>
+        <item>@null</item>
+    </array>
+    
+    <array name="lockscreen_chevron_icons">
+        <item>@drawable/ic_lockscreen_chevron_right</item>
+        <item>@drawable/ic_lockscreen_chevron_up</item>
+        <item>@drawable/ic_lockscreen_chevron_left</item>
+        <item>@drawable/ic_lockscreen_chevron_down</item>
+    </array>
+
+		<array translatable="false" name="config_appIconFrameBackground">
+    		<item>@drawable/ic_app_icon_region_mask</item>
+        <item>@drawable/ic_app_icon_frame_bg_01</item>
+        <item>@drawable/ic_app_icon_frame_bg_02</item>
+        <item>@drawable/ic_app_icon_frame_bg_03</item>
+        <item>@drawable/ic_app_icon_frame_bg_04</item>
+        <item>@drawable/ic_app_icon_frame_bg_05</item>
+    </array>
+    
+    <array translatable="false" name="config_appIconFrameBackgroundStyle1">
+<!--    		<item>@drawable/ic_style1_app_icon_region_mask</item>
+        <item>@drawable/ic_style1_app_icon_frame_bg_01</item>
+        <item>@drawable/ic_style1_app_icon_frame_bg_02</item>
+        <item>@drawable/ic_style1_app_icon_frame_bg_03</item>
+        <item>@drawable/ic_style1_app_icon_frame_bg_04</item>
+        <item>@drawable/ic_style1_app_icon_frame_bg_05</item>
+	-->
+    </array>
+    
+    <array translatable="false" name="config_appIconFrameBgAndMaskArray">
+        <item>@array/config_appIconFrameBackground</item>
+        <item>@array/config_appIconFrameBackgroundStyle1</item> 
+    </array>
+    
+    <array translatable="false" name="config_appDefaultIconStyles">
+        <item>@xml/default_icons</item>
+<!--        <item>@xml/default_icons_style1</item>  -->
+    </array>
+    
+    <array translatable="false" name="config_appDefaultIconStyles_TitleEntrys">
+        <item>@string/z_app_icon_style_name_default</item>
+        <item>@string/z_app_icon_style_name_style1</item>
+    </array>
+</resources>

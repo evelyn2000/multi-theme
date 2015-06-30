@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ZzzzAppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+        
+    <style name="ZzzzAppTheme.NoActionBar.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.WallpaperPicker" parent="ZzzzAppTheme.NoActionBar">
+    </style>
+
+    <style name="ZzzzAppTheme.Dialog.NoActionBar">
+    	  <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ZzzzAppTheme.DialogWhenLarge">        
+    </style>
+    
+    <style name="ZzzzAppTheme.DialogWhenLarge.NoActionBar">        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ZzzzAppTheme.Wallpaper">
+    		<item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Wallpaper.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Wallpaper.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="ZzzzAppTheme.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+    
+    <style name="ZzzzAppTheme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

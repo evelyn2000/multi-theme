@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="aa_shortcut_icon_str_settings">"Ayarlar"</string>
+  <string name="aa_shortcut_icon_str_back">"dönüş"</string>
+  <string name="aa_shortcut_icon_str_home">"ana Ekran"</string>
+  <string name="aa_shortcut_icon_str_customapps">"Özelleştirme"</string>
+  <string name="aa_shortcut_icon_str_screenshot">"Ekran Gö..."</string>
+  <string name="aa_shortcut_icon_str_lockscreen">"Kilitleme"</string>
+<string name="lockscreen_carrier_default" msgid="8963839242565653192">"Hizmet yok"</string>
+    <string name="lockscreen_screen_locked" msgid="7288443074806832904">"Ekran kilitli."</string>
+    <string name="lockscreen_instructions_when_pattern_enabled" msgid="46154051614126049">"Kilidi açmak veya acil çağrı yapmak için Menü\'ye basın."</string>
+    <string name="lockscreen_instructions_when_pattern_disabled" msgid="686260028797158364">"Kilidi açmak için Menü\'ye basın."</string>
+    <string name="lockscreen_pattern_instructions" msgid="7478703254964810302">"Kilit açmak için deseni çizin"</string>
+    <string name="lockscreen_emergency_call" msgid="5347633784401285225">"Acil durum çağrısı"</string>
+    <string name="lockscreen_return_to_call" msgid="5244259785500040021">"Çağrıya dön"</string>
+    <string name="lockscreen_pattern_correct" msgid="9039008650362261237">"Doğru!"</string>
+    <string name="lockscreen_pattern_wrong" msgid="4317955014948108794">"Tekrar deneyin"</string>
+    <string name="lockscreen_password_wrong" msgid="5737815393253165301">"Tekrar deneyin"</string>
+    <string name="faceunlock_multiple_failures" msgid="754137583022792429">"Yüz Tanıma Kilidi için maksimum deneme sayısı aşıldı"</string>
+    <string name="lockscreen_plugged_in" msgid="8057762828355572315">"Şarj oluyor (<xliff:g id="PERCENT">%%</xliff:g><xliff:g id="NUMBER">%d</xliff:g>)"</string>
+    <string name="lockscreen_charged" msgid="321635745684060624">"Şarj oldu"</string>
+    <string name="lockscreen_battery_short" msgid="4477264849386850266">"<xliff:g id="PERCENT">%%</xliff:g><xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <string name="lockscreen_low_battery" msgid="1482873981919249740">"Şarj cihazınızı bağlayın."</string>
+    <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"SIM kart yok"</string>
+    <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"Tablette SIM kart yok."</string>
+    <string name="lockscreen_missing_sim_message" product="default" msgid="2186920585695169078">"Telefonda SIM kart yok."</string>
+    <string name="lockscreen_missing_sim_instructions" msgid="5372787138023272615">"SIM kartı takın."</string>
+    <string name="lockscreen_missing_sim_instructions_long" msgid="3526573099019319472">"SIM kart yok veya okunamıyor. Bir SIM kart takın."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short" msgid="5096149665138916184">"Kullanılamayan SIM kartı"</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions" msgid="910904643433151371">"SIM kartınız kalıcı olarak devre dışı bırakıldı."\n" Başka bir SIM kart için kablosuz servis sağlayıcınıza başvurun."</string>
+    <string name="lockscreen_transport_prev_description" msgid="201594905152746886">"Önceki parça düğmesi"</string>
+    <string name="lockscreen_transport_next_description" msgid="6089297650481292363">"Sonraki parça düğmesi"</string>
+    <string name="lockscreen_transport_pause_description" msgid="7659088786780128001">"Duraklat düğmesi"</string>
+    <string name="lockscreen_transport_play_description" msgid="5888422938351019426">"Oynat düğmesi"</string>
+    <string name="lockscreen_transport_stop_description" msgid="4562318378766987601">"Durdur düğmesi"</string>
+    <string name="emergency_calls_only" msgid="6733978304386365407">"Yalnızca acil çağrılar için"</string>
+    <string name="lockscreen_network_locked_message" msgid="143389224986028501">"Ağ kilitli"</string>
+    <string name="lockscreen_sim_puk_locked_message" msgid="7441797339976230">"SIM kart PUK kilidi devrede"</string>
+    <string name="lockscreen_sim_puk_locked_instructions" msgid="8127916255245181063">"Kullanıcı Rehberi\'ne bakın veya Müşteri Hizmetleri\'ne başvurun."</string>
+    <string name="lockscreen_sim_locked_message" msgid="8066660129206001039">"SIM kart kilitli"</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message" msgid="595323214052881264">"SIM kart kilidi açılıyor…"</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" msgid="6481623830344107222">"Kilit açma deseninizi <xliff:g id="NUMBER_0">%d</xliff:g> kez yanlış çizdiniz. "\n\n"<xliff:g id="NUMBER_1">%d</xliff:g> saniye içinde tekrar deneyin."</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" msgid="2725973286239344555">"Şifrenizi <xliff:g id="NUMBER_0">%d</xliff:g> kez yanlış yazdınız. "\n\n"<xliff:g id="NUMBER_1">%d</xliff:g> saniye içinde tekrar deneyin."</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" msgid="6216672706545696955">"PIN kodunuzu <xliff:g id="NUMBER_0">%d</xliff:g> kez yanlış girdiniz. "\n\n"<xliff:g id="NUMBER_1">%d</xliff:g> saniye içinde tekrar deneyin."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet" msgid="9191611984625460820">"Kilit açma deseninizi <xliff:g id="NUMBER_0">%d</xliff:g> kez yanlış çizdiniz. <xliff:g id="NUMBER_1">%d</xliff:g> başarısız denemeden sonra, tabletinizi, Google oturum açma bilgilerinizi kullanarak açmanız istenir."\n\n"<xliff:g id="NUMBER_2">%d</xliff:g> saniye içinde tekrar deneyin."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default" msgid="2590227559763762751">"Kilit açma deseninizi <xliff:g id="NUMBER_0">%d</xliff:g> kez yanlış çizdiniz. <xliff:g id="NUMBER_1">%d</xliff:g> başarısız denemeden sonra telefonunuzu Google oturum açma bilgilerinizi kullanarak açmanız istenir."\n\n" Lütfen <xliff:g id="NUMBER_2">%d</xliff:g> saniye içinde tekrar deneyin."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet" msgid="6128106399745755604">"Tablet kilidini <xliff:g id="NUMBER_0">%d</xliff:g> defa yanlış bir şekilde açmaya çalıştınız. <xliff:g id="NUMBER_1">%d</xliff:g> defa daha başarısız deneme yapılırsa, tablet fabrika varsayılanına sıfırlanır ve tüm kullanıcı verileri kaybedilir."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default" msgid="8603565142156826565">"Telefonun kilidini <xliff:g id="NUMBER_0">%d</xliff:g> defa yanlış bir şekilde açmaya çalıştınız. <xliff:g id="NUMBER_1">%d</xliff:g> defa daha başarısız deneme yapılırsa, telefon fabrika varsayılanına sıfırlanır ve tüm kullanıcı verileri kaybedilir."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet" msgid="280873516493934365">"Tablet kilidini <xliff:g id="NUMBER">%d</xliff:g> defa yanlış bir şekilde açmaya çalıştınız. Tablet şimdi fabrika varsayılanına sıfırlanacak."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="default" msgid="3025504721764922246">"Telefon kilidini <xliff:g id="NUMBER">%d</xliff:g> defa yanlış bir şekilde açmaya çalıştınız. Telefon şimdi fabrika varsayılanına sıfırlanacak."</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown" msgid="6251480343394389665">"<xliff:g id="NUMBER">%d</xliff:g> saniye içinde yeniden deneyin."</string>
+    <string name="lockscreen_forgot_pattern_button_text" msgid="2626999449610695930">"Deseni unuttunuz mu?"</string>
+    <string name="lockscreen_glogin_forgot_pattern" msgid="2588521501166032747">"Hesap kilidini açma"</string>
+    <string name="lockscreen_glogin_too_many_attempts" msgid="2751368605287288808">"Çok fazla sayıda desen denemesi yapıldı"</string>
+    <string name="lockscreen_glogin_instructions" msgid="3931816256100707784">"Kilidi açmak için Google hesabınızla oturum açın."</string>
+    <string name="lockscreen_glogin_username_hint" msgid="8846881424106484447">"Kullanıcı adı (e-posta)"</string>
+    <string name="lockscreen_glogin_password_hint" msgid="5958028383954738528">"Şifre"</string>
+    <string name="lockscreen_glogin_submit_button" msgid="7130893694795786300">"Oturum aç"</string>
+    <string name="lockscreen_glogin_invalid_input" msgid="1364051473347485908">"Geçersiz kullanıcı adı veya şifre."</string>
+    <string name="lockscreen_glogin_account_recovery_hint" msgid="1696924763690379073">"Kullanıcı adınızı veya şifrenizi mi unuttunuz?"\n<b>"google.com/accounts/recovery"</b>" adresini ziyaret edin."</string>
+    <string name="lockscreen_glogin_checking_password" msgid="7114627351286933867">"Denetleniyor…"</string>
+    <string name="lockscreen_unlock_label" msgid="737440483220667054">"Kilit Aç"</string>
+    <string name="lockscreen_sound_on_label" msgid="9068877576513425970">"Sesi aç"</string>
+    <string name="lockscreen_sound_off_label" msgid="996822825154319026">"Sesi kapat"</string>
+    <string name="lockscreen_access_pattern_start" msgid="3941045502933142847">"Desen başlatıldı"</string>
+    <string name="lockscreen_access_pattern_cleared" msgid="5583479721001639579">"Desen temizlendi"</string>
+    <string name="lockscreen_access_pattern_cell_added" msgid="6756031208359292487">"Hücre eklendi"</string>
+    <string name="lockscreen_access_pattern_detected" msgid="4988730895554057058">"Desen tamamlandı"</string>
+    
+    <string name="folder_name_tool">"Araçlar"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:jzsdr="http://schemas.android.com/apk/res/com.jzs">
+    <dimen name="system_app_icon_size">48dp</dimen>
+    
+</resources>

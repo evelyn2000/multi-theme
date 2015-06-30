@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+This file contains the themes that are the Device Defaults.
+If you want to edit styles to skin your device, do it here.
+We recommend that you do not edit styles.xml and instead edit
+this file.
+
+Editing this file instead of styles.xml will greatly simplify
+merges for future platform versions and CTS compliance will be
+easier.
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- Widget Styles -->
+    <style name="Widget.DeviceDefault" parent="Widget.Holo" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Button" parent="Widget.Holo.Button" >
+				<item name="textSize">18.0dip</item>
+        <item name="textColor">@color/zzzz_btn_default_holo_text_dark</item>
+        <item name="background">@drawable/zzzz_btn_default_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.Small" parent="Widget.Holo.Button.Small" >
+	<item name="textColor">@color/zzzz_btn_default_holo_text_dark</item>
+        <item name="background">@drawable/zzzz_btn_default_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.Inset" parent="Widget.Holo.Button.Inset" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Button.Toggle" parent="Widget.Holo.Button.Toggle" >
+
+    </style>
+    <style name="Widget.DeviceDefault.TextView" parent="Widget.Holo.TextView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.CheckedTextView" parent="Widget.Holo.CheckedTextView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.AutoCompleteTextView" parent="Widget.Holo.AutoCompleteTextView" >
+				<item name="dropDownSelector">@drawable/zzzz_list_selector_holo_dark</item>
+        <item name="popupBackground">@drawable/zzzz_spinner_dropdown_background</item>
+        <item name="dropDownVerticalOffset">-5.0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.CheckBox" parent="Widget.Holo.CompoundButton.CheckBox" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ListView.DropDown" parent="Widget.Holo.ListView.DropDown" >
+				<item name="listSelector">@drawable/zzzz_list_selector_holo_dark</item>
+        <item name="divider">@drawable/divider_horizontal_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.EditText" parent="Widget.Holo.EditText" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ExpandableListView" parent="Widget.Holo.ExpandableListView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.GridView" parent="Widget.Holo.GridView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ImageButton" parent="Widget.Holo.ImageButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ListView" parent="Widget.Holo.ListView" >
+				<item name="listSelector">@drawable/zzzz_list_selector_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.PopupWindow" parent="Widget.Holo.PopupWindow" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar" parent="Widget.Holo.ProgressBar" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Horizontal" parent="Widget.Holo.ProgressBar.Horizontal" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Small" parent="Widget.Holo.ProgressBar.Small" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Small.Title" parent="Widget.Holo.ProgressBar.Small.Title" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Large" parent="Widget.Holo.ProgressBar.Large" >
+
+    </style>
+    <style name="Widget.DeviceDefault.SeekBar" parent="Widget.Holo.SeekBar" >
+        <item name="android:progressDrawable">@drawable/zzzz_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/zzzz_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:thumb">@android:drawable/zzzz_scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">6dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">32dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.RatingBar" parent="Widget.Holo.RatingBar" >
+
+    </style>
+    <style name="Widget.DeviceDefault.RatingBar.Indicator" parent="Widget.Holo.RatingBar.Indicator" >
+
+    </style>
+    <style name="Widget.DeviceDefault.RatingBar.Small" parent="Widget.Holo.RatingBar.Small" >
+
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.RadioButton" parent="Widget.Holo.CompoundButton.RadioButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ScrollView" parent="Widget.Holo.ScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.HorizontalScrollView" parent="Widget.Holo.HorizontalScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Spinner" parent="Widget.Holo.Spinner" >
+			<item name="background">@drawable/zzzz_spinner_background_holo_dark</item>
+      <item name="dropDownSelector">@drawable/zzzz_list_selector_holo_dark</item>
+      <item name="popupBackground">@drawable/zzzz_spinner_dropdown_background</item>
+      <item name="dropDownVerticalOffset">-5.0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.Star" parent="Widget.Holo.CompoundButton.Star" >
+
+    </style>
+    <style name="Widget.DeviceDefault.TabWidget" parent="Widget.Holo.TabWidget" >
+        <item name="android:tabStripLeft">@null</item>
+        <item name="android:tabStripRight">@null</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">0dip</item>
+        <item name="android:measureWithLargestChild">true</item>
+        <item name="android:tabLayout">@layout/zzzz_tab_indicator_holo</item>
+    </style>
+    <style name="Widget.DeviceDefault.WebTextView" parent="Widget.Holo.WebTextView" >
+				<item name="popupBackground">@drawable/zzzz_spinner_dropdown_background</item>
+    </style>
+    <style name="Widget.DeviceDefault.WebView" parent="Widget.Holo.WebView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.DropDownItem" parent="Widget.Holo.DropDownItem" >
+
+    </style>
+    <style name="Widget.DeviceDefault.DropDownItem.Spinner" parent="Widget.Holo.DropDownItem.Spinner" >
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/zzzz_optionmenu_text_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.TextView.SpinnerItem" parent="Widget.Holo.TextView.SpinnerItem" >
+    	<item name="android:textAppearance">@style/TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem</item>
+    </style>
+    <style name="Widget.DeviceDefault.ListPopupWindow" parent="Widget.Holo.ListPopupWindow" >
+        <item name="android:textColor">@color/zzzz_optionmenu_text_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/zzzz_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/zzzz_menu_dropdown_panel_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.PopupMenu" parent="Widget.DeviceDefault.ListPopupWindow" >
+<!--	<item name="android:dropDownSelector">@android:drawable/zzzz_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@android:drawable/menu_dropdown_panel_holo_dark</item> 
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item> -->
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton" parent="Widget.Holo.ActionButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton.Overflow" parent="Widget.Holo.ActionButton.Overflow" >
+    	<item name="android:src">@drawable/zzzz_ic_menu_moreoverflow_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton.TextButton" parent="Widget.Holo.ActionButton.TextButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionMode" parent="Widget.Holo.ActionMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionButton.CloseMode" parent="Widget.Holo.ActionButton.CloseMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar" parent="Widget.Holo.ActionBar" >
+				<!-- <item name="android:background">@android:drawable/zzzz_ab_transparent_light_holo</item> -->
+    </style>
+    <style name="Widget.DeviceDefault.Button.Borderless" parent="Widget.Holo.Button.Borderless" >
+				<item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/zzzz_btn_default_holo_text_dark</item>
+        <item name="android:background">@drawable/zzzz_btn_default_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Tab" parent="Widget.Holo.Tab" >
+				<item name="android:background">@drawable/zzzz_tab_indicator_holo</item>
+    </style>
+    <style name="Widget.DeviceDefault.CalendarView" parent="Widget.Holo.CalendarView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.DatePicker" parent="Widget.Holo.DatePicker" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar.TabView" parent="Widget.Holo.ActionBar.TabView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar.TabText" parent="Widget.Holo.ActionBar.TabText" >
+			<item name="android:textSize">18.0dip</item>
+			<item name="android:textStyle">normal</item>
+			<item name="android:textColor">@color/zzzz_tab_indicator_text</item>
+			<item name="android:maxLines">1</item>
+			<item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.DeviceDefault.TabText" parent="Widget.DeviceDefault.ActionBar.TabText">
+        <item name="android:textColor">@color/zzzz_tab_indicator_text</item>
+        <item name="ellipsize">marquee</item>
+        <item name="maxWidth">180.0dip</item>
+        <item name="singleLine">true</item>
+    </style>
+    <style name="AlertDialog.DeviceDefault.ProgressDialog" parent="AlertDialog.DeviceDefault">
+        <item name="textSize">19.0sp</item>
+        <item name="textColor">#ffdcdcdc</item>
+    </style>
+    <style name="AlertDialog.DeviceDefault.Light.ProgressDialog" parent="AlertDialog.DeviceDefault.Light">
+        <item name="textSize">19.0sp</item>
+        <item name="textColor">#ff262626</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.AlertDialog" parent="TextAppearance.DeviceDefault">
+        <item name="textSize">19.0sp</item>
+        <item name="textColor">#ffebebeb</item>
+    </style>
+    
+    <style name="Widget.DeviceDefault.ActionBar.TabBar" parent="Widget.Holo.ActionBar.TabBar" >
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.ActionBar.Solid" parent="Widget.Holo.ActionBar.Solid" >
+				<item name="android:progressBarStyle">@style/Widget.DeviceDefault.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@style/Widget.DeviceDefault.ProgressBar</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.Borderless.Small" parent="Widget.Holo.Button.Borderless.Small" >
+        <item name="android:textColor">@color/zzzz_btn_default_holo_text_dark</item>
+        <item name="android:background">@drawable/zzzz_btn_default_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.AbsListView" parent="Widget.Holo.AbsListView" >
+			<item name="android:listSelector">@drawable/zzzz_list_selector_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.Spinner.DropDown.ActionBar" parent="Widget.Holo.Spinner.DropDown.ActionBar">
+    <!--    <item name="android:spinnerItemStyle">@style/Widget.DeviceDefault.TextView.SpinnerItem.ActionBar</item>
+        <item name="android:background">@drawable/zzzz_spinner_ab_holo_dark</item>
+        <item name="android:popupBackground">@drawable/zzzz_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">-2.0dip</item>
+        -->
+    </style>
+    <style name="Widget.DeviceDefault.PopupWindow.ActionMode" parent="Widget.Holo.PopupWindow.ActionMode" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.Switch" parent="TextAppearance.Holo.Small">
+        <!-- Switch thumb asset presents a dark background. -->
+        <item name="android:textColor">@android:color/zzzz_qs_preference_title_color</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.Switch" parent="Widget.Holo.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/zzzz_switch_inner_holo_dark</item>
+        <item name="android:track">@drawable/zzzz_switch_track_holo_dark</item>
+        <item name="android:switchTextAppearance">@android:style/TextAppearance.DeviceDefault.Widget.Switch</item>
+        <item name="android:thumbTextPadding">5dip</item>
+        <item name="android:switchMinWidth">60dip</item>
+        <item name="android:switchPadding">0dip</item>
+        <item name="android:minHeight">32dip</item>
+        <item name="android:minWidth">65dip</item>
+        <item name="android:JzsThumbWidthPercent">12</item>
+    </style>
+    <style name="Widget.DeviceDefault.ExpandableListView.White" parent="Widget.Holo.ExpandableListView.White">
+
+    </style>
+    <style name="Widget.DeviceDefault.Gallery" parent="Widget.Holo.Gallery">
+
+    </style>
+    <style name="Widget.DeviceDefault.GestureOverlayView" parent="Widget.Holo.GestureOverlayView">
+
+    </style>
+    <style name="Widget.DeviceDefault.ImageWell" parent="Widget.Holo.ImageWell">
+
+    </style>
+    <style name="Widget.DeviceDefault.KeyboardView" parent="Widget.Holo.KeyboardView">
+
+    </style>
+    <style name="Widget.DeviceDefault.ListView.White" parent="Widget.Holo.ListView.White">
+        <item name="android:listSelector">@drawable/zzzz_list_selector_holo_dark</item>
+    </style>
+    <style name="Widget.DeviceDefault.NumberPicker" parent="Widget.Holo.NumberPicker">
+
+    </style>
+    <style name="Widget.DeviceDefault.PreferenceFrameLayout" parent="Widget.Holo.PreferenceFrameLayout">
+	<!--			<item name="android:borderTop">0dip</item>
+        <item name="android:borderBottom">0dp</item>
+        <item name="android:borderLeft">0dp</item>
+        <item name="android:borderRight">0dp</item>
+        -->
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Inverse" parent="Widget.Holo.ProgressBar.Inverse">
+
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Large.Inverse" parent="Widget.Holo.ProgressBar.Large.Inverse">
+
+    </style>
+    <style name="Widget.DeviceDefault.ProgressBar.Small.Inverse" parent="Widget.Holo.ProgressBar.Small.Inverse">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowLarge" parent="Widget.Holo.QuickContactBadge.WindowLarge">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowMedium" parent="Widget.Holo.QuickContactBadge.WindowMedium">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowSmall" parent="Widget.Holo.QuickContactBadge.WindowSmall">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowLarge" parent="Widget.Holo.QuickContactBadgeSmall.WindowLarge">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowMedium" parent="Widget.Holo.QuickContactBadgeSmall.WindowMedium">
+
+    </style>
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowSmall" parent="Widget.Holo.QuickContactBadgeSmall.WindowSmall">
+
+    </style>
+    <style name="Widget.DeviceDefault.Spinner.DropDown" parent="Widget.Holo.Spinner.DropDown">
+
+    </style>
+    <style name="Widget.DeviceDefault.StackView" parent="Widget.Holo.StackView">
+
+    </style>
+    <style name="Widget.DeviceDefault.TextSelectHandle" parent="Widget.Holo.TextSelectHandle">
+
+    </style>
+    <style name="Widget.DeviceDefault.TextSuggestionsPopupWindow" parent="Widget.Holo.TextSuggestionsPopupWindow">
+
+    </style>
+    <style name="Widget.DeviceDefault.TextView.ListSeparator" parent="Widget.Holo.TextView.ListSeparator">
+    	<item name="android:background">@android:drawable/zzzz_dark_header_dither</item>
+    </style>
+    <style name="Widget.DeviceDefault.TimePicker" parent="Widget.Holo.TimePicker">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light" parent="Widget.Holo.Light" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button" parent="Widget.Holo.Light.Button" >
+			<item name="android:textSize">18.0dip</item>
+			<item name="android:textColor">@color/zzzz_btn_default_holo_text_light</item>
+			<item name="android:background">@drawable/zzzz_btn_default_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Small" parent="Widget.Holo.Light.Button.Small" >
+			<item name="android:textColor">@color/zzzz_btn_default_holo_text_light</item>
+			<item name="android:background">@drawable/zzzz_btn_default_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Inset" parent="Widget.Holo.Light.Button.Inset" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Toggle" parent="Widget.Holo.Light.Button.Toggle" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextView" parent="Widget.Holo.Light.TextView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.CheckedTextView" parent="Widget.Holo.Light.CheckedTextView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.AutoCompleteTextView" parent="Widget.Holo.Light.AutoCompleteTextView" >
+    		<item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    		<item name="android:completionHintView">@android:layout/simple_dropdown_hint</item>
+				<item name="android:dropDownSelector">@drawable/zzzz_list_selector_holo_light</item>
+				<item name="android:popupBackground">@drawable/zzzz_spinner_dropdown_background_light</item>
+				<item name="android:dropDownVerticalOffset">-5.0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CompoundButton.CheckBox" parent="Widget.Holo.Light.CompoundButton.CheckBox" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView.DropDown" parent="Widget.Holo.Light.ListView.DropDown" >
+    	<item name="android:listSelector">@drawable/zzzz_list_selector_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.EditText" parent="Widget.Holo.Light.EditText" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ExpandableListView" parent="Widget.Holo.Light.ExpandableListView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.GridView" parent="Widget.Holo.Light.GridView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ImageButton" parent="Widget.Holo.Light.ImageButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView" parent="Widget.Holo.Light.ListView" >
+    	<item name="android:listSelector">@drawable/zzzz_list_selector_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.PopupWindow" parent="Widget.Holo.Light.PopupWindow" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar" parent="Widget.Holo.Light.ProgressBar" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Horizontal" parent="Widget.Holo.Light.ProgressBar.Horizontal" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small" parent="Widget.Holo.Light.ProgressBar.Small" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small.Title" parent="Widget.Holo.Light.ProgressBar.Small.Title" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Large" parent="Widget.Holo.Light.ProgressBar.Large" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Inverse" parent="Widget.Holo.Light.ProgressBar.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small.Inverse" parent="Widget.Holo.Light.ProgressBar.Small.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Large.Inverse" parent="Widget.Holo.Light.ProgressBar.Large.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.SeekBar" parent="Widget.Holo.Light.SeekBar" >
+        <item name="android:progressDrawable">@drawable/zzzz_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/zzzz_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:thumb">@android:drawable/zzzz_scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">6dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">32dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.RatingBar" parent="Widget.Holo.Light.RatingBar" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.RatingBar.Indicator" parent="Widget.Holo.Light.RatingBar.Indicator" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.RatingBar.Small" parent="Widget.Holo.Light.RatingBar.Small" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.CompoundButton.RadioButton" parent="Widget.Holo.Light.CompoundButton.RadioButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ScrollView" parent="Widget.Holo.Light.ScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.HorizontalScrollView" parent="Widget.Holo.Light.HorizontalScrollView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Spinner" parent="Widget.Holo.Light.Spinner" >
+				<item name="android:background">@drawable/zzzz_spinner_background_holo_light</item>
+				<item name="android:popupBackground">@drawable/zzzz_spinner_dropdown_background_light</item>
+				<item name="android:dropDownVerticalOffset">-5.0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CompoundButton.Star" parent="Widget.Holo.Light.CompoundButton.Star" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.TabWidget" parent="Widget.Holo.Light.TabWidget" >
+        <item name="android:tabStripLeft">@null</item>
+        <item name="android:tabStripRight">@null</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">0dip</item>
+        <item name="android:measureWithLargestChild">true</item>
+        <item name="android:tabLayout">@layout/zzzz_tab_indicator_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.WebTextView" parent="Widget.Holo.Light.WebTextView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.WebView" parent="Widget.Holo.Light.WebView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.DropDownItem" parent="Widget.Holo.Light.DropDownItem" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.DropDownItem.Spinner" parent="Widget.Holo.Light.DropDownItem.Spinner" >
+				<item name="android:textSize">20.0sp</item>
+				<item name="android:textColor">@color/zzzz_optionmenu_text_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextView.SpinnerItem" parent="Widget.Holo.Light.TextView.SpinnerItem" >
+				<item name="android:textAppearance">@style/TextAppearance.DeviceDefault.Light.Widget.TextView.SpinnerItem</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListPopupWindow" parent="Widget.Holo.Light.ListPopupWindow" >
+        <item name="android:textColor">@color/zzzz_optionmenu_text_holo_light</item>
+				<item name="android:dropDownSelector">@drawable/zzzz_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/zzzz_menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.PopupMenu" parent="Widget.DeviceDefault.Light.ListPopupWindow" >
+<!--	<item name="android:dropDownSelector">@android:drawable/zzzz_list_selector_holo_light</item>
+        <item name="android:popupBackground">@android:drawable/zzzz_dialog_full_holo_light</item> 
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>-->
+    </style>
+    <style name="Widget.DeviceDefault.Light.Tab" parent="Widget.Holo.Light.Tab" >
+        <item name="android:background">@drawable/zzzz_tab_indicator_holo</item>
+  <!--      <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item> -->
+    </style>
+    <style name="Widget.DeviceDefault.Light.CalendarView" parent="Widget.Holo.Light.CalendarView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Borderless.Small" parent="Widget.Holo.Light.Button.Borderless.Small" >
+      <item name="android:textColor">@color/zzzz_btn_default_holo_text_light</item>
+      <item name="android:background">@drawable/zzzz_btn_default_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton" parent="Widget.Holo.Light.ActionButton" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton.Overflow" parent="Widget.Holo.Light.ActionButton.Overflow" >
+        <item name="android:src">@drawable/zzzz_ic_menu_moreoverflow_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionMode" parent="Widget.Holo.Light.ActionMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton.CloseMode" parent="Widget.Holo.Light.ActionButton.CloseMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar" parent="Widget.Holo.Light.ActionBar" >
+    		<item name="android:background">@android:drawable/zzzz_ab_transparent_light_holo</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:homeLayout">@android:layout/zzzz_action_bar_home</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabView" parent="Widget.Holo.Light.ActionBar.TabView" >
+				<item name="android:background">@drawable/zzzz_tab_indicator_holo</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabText" parent="Widget.Holo.Light.ActionBar.TabText" >
+			<item name="android:textSize">18.0dip</item>
+			<item name="android:textStyle">normal</item>
+			<item name="android:textColor">@color/zzzz_tab_indicator_text</item>
+			<item name="android:maxLines">1</item>
+			<item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TabText" parent="Widget.DeviceDefault.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/zzzz_tab_indicator_text</item>
+        <item name="ellipsize">marquee</item>
+        <item name="maxWidth">180.0dip</item>
+        <item name="singleLine">true</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabBar" parent="Widget.Holo.Light.ActionBar.TabBar" >
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.Solid" parent="Widget.Holo.Light.ActionBar.Solid" >
+    		<item name="android:background">@android:drawable/zzzz_ab_transparent_light_holo</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:homeLayout">@android:layout/zzzz_action_bar_home</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.Solid.Inverse" parent="Widget.Holo.Light.ActionBar.Solid.Inverse" >
+    		<item name="android:background">@android:drawable/zzzz_ab_transparent_light_holo</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:homeLayout">@android:layout/zzzz_action_bar_home</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabBar.Inverse" parent="Widget.Holo.Light.ActionBar.TabBar.Inverse" >
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabView.Inverse" parent="Widget.Holo.Light.ActionBar.TabView.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabText.Inverse" parent="Widget.Holo.Light.ActionBar.TabText.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionMode.Inverse" parent="Widget.Holo.Light.ActionMode.Inverse" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.AbsListView" parent="Widget.Holo.Light.AbsListView" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Spinner.DropDown.ActionBar" parent="Widget.Holo.Light.Spinner.DropDown.ActionBar" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.PopupWindow.ActionMode" parent="Widget.Holo.Light.PopupWindow.ActionMode" >
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Borderless" parent="Widget.Holo.Light.Button.Borderless">
+				<item name="android:textSize">18.0dip</item>
+				<item name="android:textColor">@color/zzzz_btn_default_holo_text_light</item>
+				<item name="android:background">@drawable/zzzz_btn_default_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.DatePicker" parent="Widget.Holo.Light.DatePicker">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ExpandableListView.White" parent="Widget.Holo.Light.ExpandableListView.White">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Gallery" parent="Widget.Holo.Light.Gallery">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.GestureOverlayView" parent="Widget.Holo.Light.GestureOverlayView">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ImageWell" parent="Widget.Holo.Light.ImageWell">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView.White" parent="Widget.Holo.Light.ListView.White">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.NumberPicker" parent="Widget.Holo.Light.NumberPicker">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.Spinner.DropDown" parent="Widget.Holo.Light.Spinner.DropDown">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextView.ListSeparator" parent="Widget.Holo.Light.TextView.ListSeparator">
+    	<item name="android:background">@android:drawable/zzzz_dark_header_dither</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.TimePicker" parent="Widget.Holo.Light.TimePicker">
+
+    </style>
+    <style name="Widget.DeviceDefault.Light.TextSuggestionsPopupWindow" parent="Widget.Holo.Light.TextSuggestionsPopupWindow">
+
+    </style>
+
+
+    <!-- Text Appearance Styles -->
+    <style name="TextAppearance.DeviceDefault" parent="TextAppearance.Holo" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Inverse" parent="TextAppearance.Holo.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Large" parent="TextAppearance.Holo.Large" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Large.Inverse" parent="TextAppearance.Holo.Large.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Medium" parent="TextAppearance.Holo.Medium" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Medium.Inverse" parent="TextAppearance.Holo.Medium.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Small" parent="TextAppearance.Holo.Small" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Small.Inverse" parent="TextAppearance.Holo.Small.Inverse" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.SearchResult.Title" parent="TextAppearance.Holo.SearchResult.Title" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.SearchResult.Subtitle" parent="TextAppearance.Holo.SearchResult.Subtitle" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget" parent="TextAppearance.Holo.Widget" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.Button" parent="TextAppearance.Holo.Widget.Button" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.IconMenu.Item" parent="TextAppearance.Holo.Widget.IconMenu.Item" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TabWidget" parent="TextAppearance.Holo.Widget.TabWidget" >
+        <item name="android:textColor">@color/zzzz_tab_indicator_text</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TextView" parent="TextAppearance.Holo.Widget.TextView" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TextView.PopupMenu" parent="TextAppearance.Holo.Widget.TextView.PopupMenu" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.DropDownHint" parent="TextAppearance.Holo.Widget.DropDownHint" >
+<!--        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textSize">16sp</item> -->
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.DropDownItem" parent="TextAppearance.Holo.Widget.DropDownItem" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem" parent="TextAppearance.DeviceDefault.Widget.TextView" >
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/zzzz_spinner_text_holo_dark</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.EditText" parent="TextAppearance.Holo.Widget.EditText" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu" parent="TextAppearance.Holo.Widget.PopupMenu" >
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu.Large" parent="TextAppearance.Holo.Widget.PopupMenu.Large" >
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/zzzz_optionmenu_text_holo_dark</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu.Small" parent="TextAppearance.Holo.Widget.PopupMenu.Small" >
+        <item name="android:textColor">@color/zzzz_optionmenu_text_holo_dark</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title" parent="TextAppearance.Holo.Widget.ActionBar.Title" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_title_text_size</item>
+        <item name="android:textColor">#ffebebeb</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle" parent="TextAppearance.Holo.Widget.ActionBar.Subtitle" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">#ffbebebe</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Title" parent="TextAppearance.Holo.Widget.ActionMode.Title" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_title_text_size</item>
+        <item name="android:textColor">#ffebebeb</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Subtitle" parent="TextAppearance.Holo.Widget.ActionMode.Subtitle" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">#ffbebebe</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.WindowTitle" parent="TextAppearance.Holo.WindowTitle" >
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.DialogWindowTitle" parent="TextAppearance.Holo.DialogWindowTitle" >
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">#ffebebeb</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse" parent="TextAppearance.Holo.Widget.ActionBar.Title.Inverse" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_title_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">#4cffffff</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Title.Inverse" parent="TextAppearance.Holo.Widget.ActionMode.Title.Inverse" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_title_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Subtitle.Inverse" parent="TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" >
+        <item name="android:textSize">@dimen/zzzz_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">#4cffffff</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Menu" parent="TextAppearance.Holo.Widget.ActionBar.Menu" >
+				<item name="android:textSize">@dimen/zzzz_action_bar_menu_text_size</item>
+				<item name="android:textStyle">normal</item>
+				<item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light" parent="TextAppearance.Holo.Light">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Inverse" parent="TextAppearance.Holo.Light.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Large" parent="TextAppearance.Holo.Light.Large">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Large.Inverse" parent="TextAppearance.Holo.Light.Large.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Medium" parent="TextAppearance.Holo.Light.Medium">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Medium.Inverse" parent="TextAppearance.Holo.Light.Medium.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.SearchResult.Subtitle" parent="TextAppearance.Holo.Light.SearchResult.Subtitle">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.SearchResult.Title" parent="TextAppearance.Holo.Light.SearchResult.Title">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Small" parent="TextAppearance.Holo.Light.Small">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Small.Inverse" parent="TextAppearance.Holo.Light.Small.Inverse">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.Button" parent="TextAppearance.Holo.Light.Widget.Button">
+
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.PopupMenu.Large" parent="TextAppearance.Holo.Light.Widget.PopupMenu.Large">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/zzzz_optionmenu_text_holo_light</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.PopupMenu.Small" parent="TextAppearance.Holo.Light.Widget.PopupMenu.Small">
+        <item name="android:textColor">@android:color/zzzz_optionmenu_text_holo_light</item>
+    </style>
+
+
+    <!-- Preference Styles -->
+    <style name="Preference.DeviceDefault" parent="Preference.Holo">
+				
+    </style>
+    <style name="Preference.DeviceDefault.Category" parent="Preference.Holo.Category">
+
+    </style>
+    <style name="Preference.DeviceDefault.CheckBoxPreference" parent="Preference.Holo.CheckBoxPreference">
+
+    </style>
+    <style name="Preference.DeviceDefault.DialogPreference" parent="Preference.Holo.DialogPreference">
+
+    </style>
+    <style name="Preference.DeviceDefault.DialogPreference.EditTextPreference" parent="Preference.Holo.DialogPreference.EditTextPreference">
+
+    </style>
+    <style name="Preference.DeviceDefault.DialogPreference.YesNoPreference" parent="Preference.Holo.DialogPreference.YesNoPreference">
+
+    </style>
+    <style name="Preference.DeviceDefault.Information" parent="Preference.Holo.Information">
+
+    </style>
+    <style name="Preference.DeviceDefault.PreferenceScreen" parent="Preference.Holo.PreferenceScreen">
+
+    </style>
+    <style name="Preference.DeviceDefault.RingtonePreference" parent="Preference.Holo.RingtonePreference">
+
+    </style>
+    <style name="Preference.DeviceDefault.SwitchPreference" parent="Preference.Holo.SwitchPreference">
+
+    </style>
+
+
+    <!-- AlertDialog Styles -->
+    <style name="AlertDialog.DeviceDefault" parent="AlertDialog.Holo">
+        <item name="android:fullDark">@android:drawable/zzzz_dialog_full_holo_dark</item>
+        <item name="android:topDark">@android:drawable/zzzz_dialog_top_medium_holo_dark</item>
+        <item name="android:centerDark">@android:drawable/zzzz_dialog_middle_holo_dark</item>
+        <item name="android:bottomDark">@android:drawable/zzzz_dialog_bottom_holo_dark</item>
+        <item name="android:fullBright">@android:drawable/zzzz_dialog_full_holo_dark</item>
+        <item name="android:topBright">@android:drawable/zzzz_dialog_top_medium_holo_dark</item>
+        <item name="android:centerBright">@android:drawable/zzzz_dialog_middle_holo_dark</item>
+        <item name="android:bottomBright">@android:drawable/zzzz_dialog_bottom_holo_dark</item>
+        <item name="android:bottomMedium">@android:drawable/zzzz_dialog_bottom_medium_holo_dark</item>
+        <item name="android:centerMedium">@android:drawable/zzzz_dialog_middle_holo_dark</item>
+        <item name="android:layout">@android:layout/zzzz_alert_dialog_holo_dark</item>
+    </style>
+    <style name="AlertDialog.DeviceDefault.Light" parent="AlertDialog.Holo.Light" >
+        <item name="android:fullDark">@drawable/zzzz_dialog_full_holo_light</item>
+        <item name="android:topDark">@drawable/zzzz_dialog_top_holo_light</item>
+        <item name="android:centerDark">@drawable/zzzz_dialog_middle_holo_light</item>
+        <item name="android:bottomDark">@drawable/zzzz_dialog_bottom_holo_light</item>
+        <item name="android:fullBright">@drawable/zzzz_dialog_full_holo_light</item>
+        <item name="android:topBright">@drawable/zzzz_dialog_top_holo_light</item>
+        <item name="android:centerBright">@drawable/zzzz_dialog_middle_holo_light</item>
+        <item name="android:bottomBright">@drawable/zzzz_dialog_bottom_holo_light</item>
+        <item name="android:bottomMedium">@drawable/zzzz_dialog_bottom_holo_dark</item>
+        <item name="android:centerMedium">@drawable/zzzz_dialog_middle_holo_light</item>
+        <item name="android:layout">@layout/zzzz_alert_dialog_holo</item>
+    </style>
+
+    <!-- Animation Styles -->
+    <style name="Animation.DeviceDefault.Activity" parent="Animation.Holo.Activity">
+
+    </style>
+    <style name="Animation.DeviceDefault.Dialog" parent="Animation.Holo.Dialog">
+
+    </style>
+
+
+    <!-- DialogWindowTitle Styles -->
+    <style name="TextAppearance.DeviceDefault.Light.DialogWindowTitle" parent="TextAppearance.Holo.Light.DialogWindowTitle">
+        <item name="android:textSize">21.0dip</item>
+        <item name="android:textColor">#ff262626</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.OptionMenu" parent="TextAppearance.Holo.Light">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/zzzz_optionmenu_text_holo_light</item>
+    </style>
+    
+    <style name="DialogWindowTitle.DeviceDefault" parent="DialogWindowTitle.Holo">
+        <item name="android:textAppearance">@style/TextAppearance.DeviceDefault.DialogWindowTitle</item>
+    </style>
+    <style name="DialogWindowTitle.DeviceDefault.Light" parent="DialogWindowTitle.Holo.Light">
+        <item name="android:textAppearance">@style/TextAppearance.DeviceDefault.Light.DialogWindowTitle</item>
+    </style>
+
+
+    <!-- WindowTitle Styles -->
+    <style name="WindowTitle.DeviceDefault" parent="WindowTitle.Holo">
+    	<item name="android:shadowColor">#00000000</item>
+      <item name="android:shadowRadius">0</item>
+      <item name="android:textAppearance">@style/TextAppearance.DeviceDefault.WindowTitle</item>
+    </style>
+    <style name="WindowTitleBackground.DeviceDefault" parent="WindowTitleBackground.Holo">
+
+    </style>
+
+		<style name="WindowTitle.DeviceDefault.Light">
+    </style>
+    
+    <!-- Other Styles -->
+    <style name="DeviceDefault.ButtonBar" parent="Holo.ButtonBar" >
+				<item name="android:divider">@color/transparent</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+    </style>
+    <style name="DeviceDefault.ButtonBar.AlertDialog" >
+        <item name="android:background">@null</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:dividerPadding">0.0dip</item>
+    </style>
+    <style name="DeviceDefault.SegmentedButton" parent="Holo.SegmentedButton" >
+        <item name="android:divider">@color/transparent</item>
+    </style>
+    <style name="DeviceDefault.Light.ButtonBar" parent="Holo.Light.ButtonBar" >
+				<item name="android:divider">@color/transparent</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+    </style>
+    <style name="DeviceDefault.Light.ButtonBar.AlertDialog" >
+        <item name="android:background">@null</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:dividerPadding">0.0dip</item>
+    </style>
+    <style name="DeviceDefault.Light.SegmentedButton" parent="Holo.Light.SegmentedButton" >
+    		<item name="android:background">@drawable/zzzz_btn_default_holo_light</item>
+        <item name="android:divider">@color/transparent</item>
+     <!--   <item name="android:showDividers">none</item> -->
+    </style>
+
+    <style name="Widget.DeviceDefault.MediaRouteButton" parent="Widget.Holo.MediaRouteButton" />
+    <style name="Widget.DeviceDefault.Light.MediaRouteButton" parent="Widget.Holo.Light.MediaRouteButton" />
+
+    <style name="TextAppearance.DeviceDefault.Light.AlertDialog" parent="TextAppearance.DeviceDefault.Light">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">#ff737373</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.AlertDialog.Small" parent="Widget.DeviceDefault.Light.Button.Small">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/zzzz_popup_button_text_holo_light</item>
+        <item name="android:background">@drawable/zzzz_popup_button_background_holo_light</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.TextView.SpinnerItem" parent="Widget.Holo.Light.TextView.SpinnerItem">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/zzzz_spinner_text_holo_light</item>
+    </style>
+    <style name="Widget.DeviceDefault.TextView.SpinnerItem.ActionBar" parent="@style/Widget.DeviceDefault.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem.ActionBar</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem.ActionBar" parent="@style/TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/zzzz_spinner_ab_text_holo_dark</item>
+    </style>
+    
+    <style name="Widget.DeviceDefault.Button.AlertDialog.Small" parent="@style/Widget.DeviceDefault.Button.Small">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/zzzz_popup_button_text_holo_dark</item>
+        <item name="android:background">@drawable/zzzz_popup_button_background_holo_dark</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Button.AlertDialog" parent="@style/Widget.DeviceDefault.Button">
+        <item name="android:background">@drawable/zzzz_popup_button_holo_dark</item>
+    </style>
+    
+    
+    <style name="Widget.DeviceDefault.ListView.Menu" parent="@style/Widget.ListView.Menu">
+    	
+    </style>
+    
+    <style name="Widget.DeviceDefault.Light.ListView.Menu" parent="@style/Widget.Holo.Light.ListView">
+    		<item name="android:cacheColorHint">@null</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">none</item>
+        <!-- Light background for the list in menus, so the divider for bright themes -->
+        <item name="android:divider">@android:drawable/divider_horizontal_dark</item>
+    </style>
+</resources>

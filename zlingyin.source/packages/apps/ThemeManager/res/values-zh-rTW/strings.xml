@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"系統更新"</string>
+
+
+    <string name="none_package">沒有可用的更新程式。</string>
+    <string name="new_version_query">檢查更新\u2026</string>
+    <string name="menu_stats_refresh">更新</string>
+    <string name="network_error">網路連線失敗</string>
+    <string name="network_error_content">網路連線失敗，請再試一次。</string>
+    <string name="no_new_version">您的系統目前為最新狀態。</string>
+    <string name="not_support_version">您的手機不支持無線升級功能。</string>
+    <string name="query_sd_insufficient_space"><xliff:g id="path">%s</xliff:g> 所需的空間不足</string>
+    <string name="ota_category_title">OTA</string>
+    <string name="sd_category_title">SD 卡更新</string>
+    <string name="ota_preference_summary">伺服器上有系統更新程式存在</string>
+
+
+    <string name="notes_summary">韌體更新可增進機器穩定度並修補錯誤。</string>
+    <string name="ask_for_install_ota">立即安裝系統更新程式？</string>
+    <string name="warning_install_ota" product="tablet">更新中將無法使用平板電腦或打緊急電話。切勿取出電池或將電腦關機。</string>
+    <string name="warning_install_ota" product="default">更新中將無法使用手機或打緊急電話。切勿取出電池或將手機關機。</string>
+    <string name="ask_for_install_sd">SD 卡上有最新的系統更新程式，立即安裝系統最佳化程式？</string>
+    <string name="warning_install_sd" product="tablet">升級中將無法使用平板電腦或打緊急電話。切勿取出電池或將電腦關機。 \n開始升級前，請自官網下載更新程式，並確認程式未遭毀損。</string>
+    <string name="warning_install_sd" product="default">升級中將無法使用手機或打緊急電話。切勿取出電池或將手機關機。 \n開始升級前，請自官網下載程式，並確認程式未遭毀損。</string>
+    <string name="ask_for_download_ota">是否立即下載系統優化程式？</string>
+    <string name="warning_download_ota">進行更新時，請使用免費的 Wi-Fi 熱點或吃到飽資費，否則可能發生標準的數據連線費用。 \n升級前，請先備份資料。</string>
+        
+    <string name="notification_content_title">系統升級</string>
+    <string name="downloading_title">"下載中…"</string>   
+    <string name="wifi_only_check">僅使用 Wi-Fi</string>     
+    <string name="download_per_info_M" translatable="false"><xliff:g id="percent">%1$d</xliff:g>%% <xliff:g id="currentsize">%2$.2f</xliff:g> / <xliff:g id="totalsize">%3$.2f</xliff:g> (MB)</string>
+    <string name="download_per_info_K" translatable="false"><xliff:g id="percent">%1$d</xliff:g>%% <xliff:g id="currentsize">%2$.2f</xliff:g> / <xliff:g id="totalsize">%3$.2f</xliff:g> (KB)</string>
+    <string name="download_per_info_B" translatable="false"><xliff:g id="percent">%1$d</xliff:g>%% <xliff:g id="currentsize">%2$d</xliff:g> / <xliff:g id="totalsize">%3$d</xliff:g> (Bytes)</string>
+    
+    
+    <string name="btn_install">"安裝"</string>
+    <string name="btn_cancel">丟棄已下載内容</string>
+    <string name="btn_download">下載及安裝</string>
+    <string name="btn_resume">"下載"</string>
+    
+    <string name="warn_data_cost_title">下載更新</string>
+    <string name="warn_data_cost_content">用行動網路下載可能產生額外的費用，是否繼續？</string>
+    
+    
+    <string name="sdcard_crash_or_unmount">SD 卡錯誤，請檢查您的 SD 卡並再試一次。</string>
+    <string name="unmount_sdcard">SD 卡安裝錯誤，請檢查。</string>
+    <string name="insufficient_space_content">空間不足，請釋放至少  <xliff:g id="deltasize" example="3.5M">%s</xliff:g> 字節空間繼續此安裝。 </string>
+
+    <string name="size_M" translatable="false">(%1$.2f MB)</string>
+    <string name="size_K" translatable="false">(%1$.2f KB)</string>
+    <string name="size_B" translatable="false">(%1$.2f Bytes)</string>
+    
+    <string name="install_sd_title">安裝更新</string>
+    <string name="install_sd_message">務請自官網下載更新程式，並確認程式未遭毀損，否則可能產生嚴重的後果</string>
+    
+    
+
+    <string name="notification_content_text_completed">下載成功</string> 
+    
+    <string name="unknown_error">未知錯誤</string>
+    <string name="unknown_error_content">發生未知錯誤，請退出並再試一次。</string>
+    <string name="server_error_title">伺服器連線失敗</string>
+    <string name="server_error_content">連接至伺服器必須使用 GPRS 網路，請進行設定。</string>
+    <string name="insufficient_space_title">空間不足</string>
+    <string name="error_sdcard">SD 卡資訊</string>
+    <string name="insufficient_space">SD 卡上空間不足。</string>
+    
+    <string name="btn_retry">重試</string>
+    <string name="btn_pause">"暫停"</string>
+
+    
+    <string name="cancel_download_title">取消下載</string>
+    <string name="cancel_download_content">丟棄已下載升級包？</string>
+    <string name="cancel_download_positive_btn">是</string>
+    <string name="cancel_download_negative_btn">否</string>
+    
+    <string name="update_prompt">軟件更新大約需要10分鐘。在此期間，所有手機功能將無法使用，包括緊急呼叫</string>
+    
+    <string name="need_target_info">沒有查找升級包所需的手機信息</string>
+    <string name="delta_has_deleted">封包已被刪除，您需要再次查詢最新版本。</string>
+    
+    <string name="package_error_title">安裝失敗</string>
+    <string name="package_error_message_invalid">封包錯誤，請檢查更新並再次下載。</string>
+    <string name="package_error_message_insuff" product="tablet">裝置上空間不足 。</string>
+    <string name="package_error_message_insuff" product="default">手機上空間不足</string>
+    <string name="package_error_message_crash">無法存取使用者資料</string>
+    <string name="package_error_message_full">分割變更的狀況需要完整封包。</string>    
+    <string name="updateResultTitle">系統升級</string> 
+    <string name="updateSuccess" product="tablet">恭喜您！您的裝置已成功更新為  <xliff:g id="version" example="gb.p37">%s</xliff:g> 版。 </string> 
+    <string name="updateSuccess" product="default">恭喜您！手機已成功更新至  <xliff:g id="version" example="gb.p37">%s</xliff:g> 。 </string> 
+    <string name="updateFailed">無法更新至  <xliff:g id="version" example="gb.p37">%s</xliff:g> 。 </string>
+    <string name="package_unzip">程式解壓縮中\u2026</string>
+    <string name="package_unzip_error">解壓失敗</string>
+    
+    <string name="installing_message">手機將關機\u2026</string>
+    <string name="install_sd_info">繼續升級動作前，需先將程式複製到手機記憶體。</string>
+    <string name="sdcard_crash_or_unmount_when_install">系統更新因 SD 卡被取下而停止。</string>
+    <string name="sdcard_inserted">已有 SD 卡插入，是否掃描 SD 卡看看有無其他更新程式？</string>
+
+      <string name="warn_data_cost_yes">是</string>
+      <string name="warn_data_cost_no">否</string>
+      <string name="install_reminder_not_now">"現在不要"</string>
+      <string name="change_network_title">"下載"</string>
+      <string name="change_network_content">目前的 APN 不支援下載，是否改用別的 APN 或改用 Wi-Fi？</string>
+      <string name="change_network_wifi_btn">使用 Wi-Fi</string>
+      <string name="change_network_apn_btn">改用別的 APN </string>
+      <string name="change_network_discard_btn">丟棄已下載内容</string>
+      <string name="notification_download_complete_title">系統更新已準備好</string>
+      <string name="notification_download_complete_context">觸按即可安裝系統更新</string>
+      <string name="package_deleted_error">系統更新因升級有誤而停止。</string>
+      <string name="install_reminder_now">現在安裝</string>
+      <string name="new_version_detected">有系統更新可用</string>
+      <string name="sdcard_unmount">"已卸載 SD 卡"</string></resources>

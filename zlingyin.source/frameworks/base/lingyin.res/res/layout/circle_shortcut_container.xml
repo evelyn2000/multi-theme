@@ -1,0 +1,97 @@
+<com.jzs.internal.widget.JzsCircleShortCutContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyres="http://schemas.android.com/apk/res/com.jzs"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+	
+    <ImageView android:tag="mode_smalllnk_btn"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/circle_shortcut_mode_smalllnk"
+    	android:clickable="false" />
+
+	<com.jzs.internal.widget.JzsCircleShortCutViewGroup
+	    android:tag="mode_large_container"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/ic_circle_shortcut_mode_large_bg"	    
+	    android:layout_gravity="center"
+	    android:layout_marginTop="100dp"
+	    android:visibility="gone"
+	    lyres:radiusPadding="40dip"
+	    >
+	    <!-- android:visibility="gone" -->
+	  <com.jzs.internal.widget.JzsScTextView android:tag="settings"
+        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:drawableTop="@drawable/circle_shortcut_item_settings"
+	    	android:text="@string/aa_shortcut_icon_str_settings"
+	    	android:textColor="@android:color/white"
+	    	android:textSize="12sp"
+	    	android:gravity="center_horizontal"
+	    	lyres:btnAction="tag:settings"
+	    	lyres:positionDegress="0" />
+<!--	    	
+	  <com.jzs.internal.widget.JzsScTextView android:tag="customapps"
+        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:drawableTop="@drawable/circle_shortcut_item_customapps"
+	    	android:text="@string/aa_shortcut_icon_str_customapps"
+	    	android:textColor="@android:color/white"
+	    	android:textSize="12sp"
+	    	android:gravity="center_horizontal"
+	    	lyres:btnAction="tag:customapps"
+	    	lyres:positionDegress="72" />
+-->
+	  <com.jzs.internal.widget.JzsScTextView android:tag="lockscreen"
+        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:drawableTop="@drawable/ic_circle_shortcut_item_lock"
+	    	android:text="@string/aa_shortcut_icon_str_lockscreen"
+	    	android:textColor="@android:color/white"
+	    	android:textSize="12sp"
+	    	android:gravity="center_horizontal"
+	    	lyres:btnAction="tag:lockscreen"
+	    	android:keycode="KEYCODE_POWER"
+	    	lyres:keyRepeat="false"
+	    	lyres:positionDegress="72" />
+	    	
+	  <com.jzs.internal.widget.JzsScTextView android:tag="home"
+        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:drawableTop="@drawable/circle_shortcut_item_home"
+	    	android:text="@string/aa_shortcut_icon_str_home"
+	    	android:textColor="@android:color/white"
+	    	android:textSize="12sp"
+	    	android:gravity="center_horizontal"
+	    	android:keycode="KEYCODE_HOME"
+	    	lyres:keyRepeat="true"
+	    	lyres:positionDegress="144" />
+	    	
+	  <com.jzs.internal.widget.JzsScTextView android:tag="back"
+        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:drawableTop="@drawable/circle_shortcut_item_back"
+	    	android:text="@string/aa_shortcut_icon_str_back"
+	    	android:textColor="@android:color/white"
+	    	android:textSize="12sp"
+	    	android:gravity="center_horizontal"
+	    	android:keycode="KEYCODE_BACK"
+	    	lyres:keyRepeat="true"
+	    	lyres:positionDegress="216" />
+
+	   <com.jzs.internal.widget.JzsScTextView android:tag="screenshot"
+        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:drawableTop="@drawable/circle_shortcut_item_screenshot"
+	    	android:text="@string/aa_shortcut_icon_str_screenshot"
+	    	android:textColor="@android:color/white"
+	    	android:textSize="12sp"
+	    	android:gravity="center_horizontal"
+	    	lyres:btnAction="tag:screenshot"
+	    	lyres:positionDegress="288" />
+	    	
+    </com.jzs.internal.widget.JzsCircleShortCutViewGroup>
+    
+</com.jzs.internal.widget.JzsCircleShortCutContainer>
